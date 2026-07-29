@@ -1,0 +1,27 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+
+# Temporary rendering and development files
+tmp/
+.tmp/
+rendered/
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*~
+*.swp
