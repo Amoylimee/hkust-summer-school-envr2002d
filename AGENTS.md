@@ -116,15 +116,17 @@ The default production route is:
 2. use local assets only;
 3. render at 16:9;
 4. export to PDF with print backgrounds enabled and zero page margins;
-5. inspect every rendered page at full size.
+5. export an editable PPTX companion with the same copy, assets and speaker notes;
+6. inspect every rendered HTML/PDF page and every rendered PPTX slide at full size.
 
 Preferred repository locations:
 
 - source: `src/`
+- build scripts: `scripts/`
 - approved original assets: `assets/original/`
 - approved pixel assets: `assets/pixel/`
 - temporary work: `tmp/` or `.tmp/` and never committed
-- final HTML/PDF: `output/`
+- final HTML/PDF/PPTX: `output/`
 
 If the HTML is meant to be distributed as one file, inline the approved assets in the final build while retaining normal source files in `src/`.
 
@@ -138,6 +140,9 @@ Before presenting a revision to Jeremy:
 - verify that the image visibly corresponds to the slide's claim;
 - create a contact sheet for deck-level consistency;
 - confirm the PDF page count and 16:9 page size.
+- render the exported PPTX through LibreOffice, not only through the authoring
+  runtime, and run the presentation overflow test.
+- confirm speaker notes and embedded images exist in the PPTX.
 
 Do not describe a deck as finished when only the HTML source has been edited.
 
@@ -167,5 +172,6 @@ A deck revision is complete only when:
 - all images are relevant and provenance is recorded;
 - changed pages have been rendered and visually checked;
 - the PDF export is current;
+- the PPTX export is current and passes overflow/render checks;
 - `STATUS.md` accurately states the result and next step;
 - the changes are committed to the repository.

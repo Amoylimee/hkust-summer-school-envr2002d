@@ -4,7 +4,7 @@ This repository maintains Jeremy Jiajing Chen's guest lecture for **ENVR2002D: T
 
 The repository has two jobs:
 
-1. maintain the HTML slide deck, visual assets and exported PDF;
+1. maintain the HTML slide deck, visual assets and exported HTML, PDF and editable PPTX;
 2. preserve enough context for a new AI-agent session to continue the work without reconstructing the project from chat history.
 
 ## Start here
@@ -49,9 +49,10 @@ See [`STRUCTURE.md`](STRUCTURE.md) for the detailed slide plan.
 - every image must directly illustrate the point of its slide;
 - no dashboard cards, decorative diagrams, gradients or generic AI imagery.
 
-The main production route is a static 16:9 HTML deck exported to PDF.
+The main production route is a static 16:9 HTML deck. A companion editable
+PPTX uses the same copy, images, layout and speaker notes.
 
-## Planned repository layout
+## Repository layout
 
 ```text
 .
@@ -66,17 +67,48 @@ The main production route is a static 16:9 HTML deck exported to PDF.
 │   ├── README.md
 │   ├── original/
 │   └── pixel/
-├── references/
 ├── src/
 │   ├── index.html
 │   └── styles.css
+├── scripts/
+│   ├── build_html.py
+│   └── build_ppt.mjs
+├── requirements.txt
 └── output/
-    ├── ENVR2002D_Class9.html
-    └── ENVR2002D_Class9.pdf
+    ├── ENVR2002D_Class9_Part1.html
+    ├── ENVR2002D_Class9_Part1.pdf
+    └── ENVR2002D_Class9_Part1.pptx
 ```
 
-Folders will be added as the deck source and approved assets are committed.
+`tmp/` contains local renders and is intentionally ignored.
+
+## Build Part 1
+
+Install the Python dependency and build the self-contained HTML:
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/build_html.py
+```
+
+The HTML build also writes the 16:9 PDF with WeasyPrint.
+
+The PPTX source uses the Codex presentation runtime and `@oai/artifact-tool`.
+In a Codex workspace:
+
+```bash
+node /root/.codex/skills/builtins/presentations/container_tools/setup_artifact_tool_workspace.mjs \
+  --workspace tmp/ppt-work
+cp scripts/build_ppt.mjs tmp/ppt-work/build_ppt.mjs
+cd tmp/ppt-work
+node build_ppt.mjs
+```
+
+The exported PPTX contains editable text, embedded pixel-art images and
+speaker notes. `AGENTS.md` contains the required visual-QA procedure.
 
 ## Current phase
 
-The narrative direction is agreed. Three visual samples established the new pixel-art, left-text/right-image style. The next task is to rebuild Part 1 in that style, with the background changed to pure white.
+Part 1 version 1 is complete: 15 slides, 15 unique images, self-contained HTML,
+PDF and editable PPTX. The next step is Jeremy's content and pacing review
+before any Part 2 slide production begins.

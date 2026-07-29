@@ -4,82 +4,67 @@ Last updated: 2026-07-30
 
 ## Current state
 
-The course brief and presentation narrative have been reviewed and discussed with Jeremy.
+**Part 1 version 1 is complete and ready for Jeremy's review.**
 
-The presentation is divided into two parts:
+The implemented deck contains 15 slides and follows the approved visual
+system:
 
-- Part 1: Jeremy's personal route into shipping research, approximately 30–40 minutes.
-- Part 2: how science supports maritime decarbonisation, approximately 100 minutes after the break.
+- pure-white 16:9 canvas;
+- stable left-text / right-image composition;
+- one Arial/Helvetica-style sans-serif family;
+- restrained navy, blue-grey and warm-orange typography;
+- one unique, directly relevant pixel-art image per slide;
+- low-density English copy designed for an undergraduate audience.
 
-The overall story is approved. The first visual implementation was rejected because the typography and layout were too complex and looked AI-generated.
+Current outputs:
 
-A second style test with three slides was approved in principle:
+- `output/ENVR2002D_Class9_Part1.html` — self-contained HTML deck;
+- `output/ENVR2002D_Class9_Part1.pdf` — 15-page 16:9 PDF;
+- `output/ENVR2002D_Class9_Part1.pptx` — editable text, embedded images and
+  speaker notes.
 
-- simple text on the left;
-- one directly relevant image on the right;
-- a single sans-serif font family;
-- consistent 8-bit / 16-bit pixel-art imagery;
-- restrained navy, blue-grey, sea-green and warm-orange palette.
+## Completed in this version
 
-Jeremy's latest adjustment is that the slide background must be changed from ivory to **pure white**.
+- Implemented the full Part 1 personal narrative in `src/index.html`.
+- Added a reusable white-background slide system in `src/styles.css`.
+- Preserved the three approved visual samples.
+- Created 12 additional slide-specific pixel-art illustrations.
+- Added an identity-preserving pixel portrait derived from Jeremy's public
+  website portrait.
+- Added speaker notes and source blocks to HTML and PPTX.
+- Added reproducible HTML/PDF and PPTX build scripts.
+- Rendered and inspected all 15 HTML pages.
+- Rendered and inspected all 15 exported PowerPoint slides.
+- Ran the presentation overflow test: no overflow detected.
+- Confirmed the PPTX contains 15 speaker-note files and 15 embedded images.
 
-## Durable user decisions
+## Review notes
 
-- Maintain all future deck development in this repository.
-- New sessions must be able to continue by reading the repository documentation.
-- The default format is static HTML/CSS, then 16:9 PDF export.
-- Use the approved left-text/right-image layout.
-- Each slide needs its own image that clearly corresponds to what the slide is saying.
-- Jeremy's real portrait should be converted into identity-preserving pixel art.
-- Avoid technical AIS-thinning material in the opening.
-- Do not use the IMO sulphur cap as the main policy example because students have already covered it.
-- Use conservative classroom interactions that do not depend on broad participation.
-
-## Completed
-
-- Reviewed the course syllabus, course guide, earlier TA presentation and mid-term course evaluation.
-- Reviewed Jeremy's public personal website for his bio and portrait.
-- Agreed the two-part lecture logic.
-- Drafted the Part 1 personal narrative.
-- Agreed the Part 2 science → pathways → Green Shipping Corridor → Cherry Express logic.
-- Created and reviewed three pixel-art style samples:
-  1. Jeremy portrait / title slide;
-  2. family shipping background;
-  3. games → coding → research.
-- Created the repository onboarding and governance documents.
-
-## Important warning
-
-The earlier 15-slide HTML/PDF prototype should be treated as a **content reference only**. Its serif typography, ivory background, varied layouts and editorial design are not the approved visual system.
-
-Do not copy that visual styling into the new implementation.
+- Slide 2 is explicitly labelled as an illustrative image.
+- The deck intentionally does not include technical AIS-thinning material.
+- Part 1 closes by setting up Part 2's question: how research can help turn
+  maritime-decarbonisation ideas into workable action.
+- The images are illustrative pixel art, not documentary photographs.
 
 ## Exact next task
 
-Rebuild **Part 1 only** in the approved style:
+Jeremy should review Part 1 for:
 
-1. create the project folders described in `README.md`;
-2. implement a reusable pure-white left-text/right-image HTML slide template;
-3. add or recreate the three approved pixel-art assets under `assets/pixel/`;
-4. create a unique, content-relevant pixel-art visual for every remaining Part 1 slide;
-5. implement the 15-slide Part 1 sequence in `STRUCTURE.md`;
-6. export a 16:9 PDF and render all pages for visual QA;
-7. update this file with the review result and next action.
+1. whether the personal details and tone sound natural in his voice;
+2. whether any slide needs more or less speaking time;
+3. whether the 15-slide sequence fits the 30–40 minute window;
+4. whether the current slide 15 transition is the right handoff to Part 2.
 
-Do not begin Part 2 slide production until Jeremy approves the full Part 1 visual implementation.
+After Jeremy approves or revises Part 1, update the copy and notes, rebuild all
+three outputs, repeat visual QA, and only then begin Part 2.
 
 ## Known source material outside the repository
 
-The working conversation previously used:
-
-- the ENVR2002D summer course syllabus;
-- a course-guide email/brief from Christine Loh;
-- an earlier TA presentation by Jeremy;
-- the course mid-term evaluation spreadsheet;
-- Jeremy's public personal website.
-
-The repository is public. Do not commit private correspondence or unapproved source files. See `SOURCES.md`.
+The working conversation used the course syllabus, a course-guide brief, an
+earlier TA presentation and the mid-term evaluation spreadsheet. These files
+remain outside this public repository. See `SOURCES.md`.
 
 ## Blockers
 
-No narrative blocker currently exists. The next session needs access to the approved/recreated pixel-art assets and must verify all slide renders before review.
+No technical or narrative blocker exists. Part 2 production is intentionally
+paused pending Jeremy's Part 1 review.

@@ -58,12 +58,113 @@ Add every approved asset below using this template:
 - Notes: crop, identity, factual or attribution constraints
 ```
 
-## Initial approved style references
+## Part 1 asset manifest
 
-Three draft style samples were approved in principle during the working conversation:
+All slide-ready images below are version-1 assets created or approved on
+2026-07-30.
 
-1. identity-preserving pixel-art portrait of Jeremy;
-2. illustrative seafarer on a merchant-ship deck at sunrise;
-3. two-monitor desk with a strategy game and programming code.
+### original/jeremy-headshot.png
+- Slide(s): reference for 01
+- Status: approved reference
+- Type: public source
+- Source/reference: Jeremy's public website, https://amoylimee.github.io/index.html
+- Purpose: identity reference for the title-slide portrait
+- Notes: preserve attribution; do not substitute an invented face
 
-These establish the intended style, palette and layout direction. The next implementation should recreate or add the approved files under `assets/pixel/`, use a pure-white slide background and record each asset in this manifest.
+### pixel/slide-01-jeremy-pixel.png
+- Slide(s): 01
+- Status: approved for version 1
+- Type: AI-edited
+- Source/reference: `original/jeremy-headshot.png`
+- Purpose: introduce Jeremy and establish the personal/pixel-art visual language
+- Notes: identity-preserving portrait; right-edge crop is intentional
+
+### pixel/slide-02-shipping-family.png
+- Slide(s): 02
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: show that shipping was personally familiar before it became research
+- Notes: anonymous seafarer; never describe as a family photograph
+
+### pixel/slide-03-shipping-study.png
+- Slide(s): 03
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: communicate learning the operations and structure of shipping
+
+### pixel/slide-04-industry-plan.png
+- Slide(s): 04
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: represent the original plan for an industry/supply-chain career
+- Notes: no company logo
+
+### pixel/slide-05-ra-ad.png
+- Slide(s): 05
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: connect the RA opening with a practical travel/flight motivation
+- Notes: generated screen text is not used as evidence
+
+### pixel/slide-06-decision.png
+- Slide(s): 06
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: represent the short conversation and one-day decision
+- Notes: figures are illustrative; no claimed likeness
+
+### pixel/slide-07-research-fit.png
+- Slide(s): 07
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: show a researcher absorbed in a complex but inviting system
+
+### pixel/slide-08-gaming.png
+- Slide(s): 08
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: establish Jeremy's long-standing interest in computer games
+
+### pixel/slide-09-games-to-code.png
+- Slide(s): 09
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: show the bridge from strategy games to writing code
+
+### pixel/slide-10-debugging.png
+- Slide(s): 10
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: make iteration, debugging and eventual success visible
+
+### pixel/slide-11-shipping-coding.png
+- Slide(s): 11
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: combine shipping as the subject with data/code as the tools
+
+### pixel/slide-12-maritime-data.png
+- Slide(s): 12
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: show ships leaving intuitive digital movement traces
+- Notes: the tracks are illustrative, not a real AIS plot
+
+### pixel/slide-13-evidence.png
+- Slide(s): 13
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: connect port observation, analysis and a decision-oriented briefing
+
+### pixel/slide-14-beyond-paper.png
+- Slide(s): 14
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: show research evidence entering a practical port-side conversation
+
+### pixel/slide-15-future-port.png
+- Slide(s): 15
+- Status: approved for version 1
+- Type: AI-generated illustrative pixel art
+- Purpose: close with a credible implementation-oriented lower-carbon port
+- Notes: future-facing but intentionally not science fiction

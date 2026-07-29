@@ -88,3 +88,32 @@ Slide 00 — Short slide title
 ```
 
 Generated images should also be entered in the asset manifest described in `assets/README.md`.
+
+## Part 1 version 1 slide map
+
+The version-1 speaker notes contain the same source blocks.
+
+### Slides 01–03 — Introduction, family background and study
+- Claims: Jeremy's public website and personal background supplied for the lecture.
+- Images: `slide-01-jeremy-pixel.png` is derived from the public website portrait;
+  slides 02–03 use AI-generated illustrative pixel art.
+
+### Slides 04–06 — Industry plan and the RA/PhD decision
+- Claims: earlier TA presentation and personal career story supplied by Jeremy.
+- Images: `slide-04-industry-plan.png`, `slide-05-ra-ad.png` and
+  `slide-06-decision.png`; AI-generated illustrative pixel art.
+
+### Slides 07–11 — Research fit, games and coding
+- Claims: Jeremy's personal reflection and stated interest in computer games,
+  coding and algorithms.
+- Images: `slide-07-research-fit.png` through
+  `slide-11-shipping-coding.png`; AI-generated illustrative pixel art.
+
+### Slides 12–15 — Current work, evidence and future direction
+- Claims: Jeremy's public website, personal research perspective and course
+  planning materials.
+- Images: `slide-12-maritime-data.png` through
+  `slide-15-future-port.png`; AI-generated illustrative pixel art.
+
+No generated image is used as factual evidence. The slide 02 image is visibly
+labelled as illustrative.

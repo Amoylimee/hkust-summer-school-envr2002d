@@ -11,6 +11,7 @@ This is a short log of approved decisions that future sessions should preserve. 
 ## D002 — HTML-first production
 
 **Decision:** Maintain the deck as static 16:9 HTML/CSS and export it to PDF.
+Also produce an editable PPTX companion from the same content and visual system.
 
 **Reason:** HTML offers better control over image placement and visual consistency than the earlier generated PowerPoint approach.
 
@@ -67,3 +68,11 @@ This is a short log of approved decisions that future sessions should preserve. 
 **Decision:** Store development in this public repository, but do not commit private emails, personal contact details, confidential attachments or unapproved course files.
 
 **Reason:** The repository should support continuity without exposing source material that was shared privately.
+
+## D012 — Part 1 version-1 scope
+
+**Decision:** Part 1 uses 15 slides and is delivered as self-contained HTML,
+16:9 PDF and editable PPTX with speaker notes.
+
+**Reason:** Jeremy requested the complete first version in both HTML and
+PowerPoint while preserving the approved HTML-first design route.
