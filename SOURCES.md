@@ -47,65 +47,63 @@ unapproved course files.
 - Huawei job offer, Research Assistant application, flight-ticket motivation,
   conversation with Prof. Alexis Lau (Jeremy's supervisor) and PhD decision:
   Jeremy's earlier presentation and personal account supplied privately.
-- Visual: placeholder only.
+- Visual: `assets/slide-5.png`, a user-supplied illustrative graphic. It is
+  used for storytelling and is not documentary evidence.
 
 ### Slide 6 — Computer games and coding
 
 - Personal interest in computer games and coding supplied by Jeremy.
 - Research description cross-checked against Jeremy's public website.
-- Visual: placeholder only.
+- Visual: `assets/slide-6.png`, a user-supplied illustrative graphic. It is
+  used for storytelling and is not documentary evidence.
 
-### Slide 7 — Shipping, coding and algorithms
-
-- Personal research framing supplied by Jeremy.
-- Visual: no image.
-
-### Slide 8 — Understanding shipping through data
+### Slide 7 — Understanding shipping through data
 
 - Research description cross-checked against Jeremy's public website.
-- Visual: placeholder requesting a simplified AIS or vessel-activity map;
-  final source remains to be selected.
+- Visual: `assets/slide8.png`, a user-supplied illustrative vessel-activity
+  graphic. It is explanatory and is not an empirical data visualisation.
 
-### Slide 9 — Research logic
+### Slide 8 — Research logic
 
 - Research process and framing supplied by Jeremy.
 - Visual: native text sequence; no external image.
 
-### Slide 10 — Beyond the paper
+### Slide 9 — Beyond the paper
 
 - Personal research framing supplied by Jeremy and his earlier presentation.
-- Visual: placeholder requesting a real stakeholder-presentation photo; final
-  source remains to be selected.
+- Visual: `assets/slide-10.png`, a user-supplied illustrative
+  stakeholder-presentation graphic. It is used for storytelling and is not
+  documentary evidence.
 
-### Slide 11 — Sharing the research
+### Slide 10 — Sharing the research
 
 - Presentation and event experience supplied directly by Jeremy.
-- Visual: placeholder for 3–5 real photos of Jeremy giving presentations or
-  attending academic, policy and maritime-industry events.
-- For each final photo, record the event, location, date and
-  photographer/source before publication.
+- Visual: `assets/slide-11.png`, a user-supplied group photograph from the
+  Green Fuels Transition for International Shipping Workshop, November 2024.
+- Photographer/source details remain to be confirmed before final
+  publication.
 
-### Slide 12 — Ideal post-PhD plan
+### Slide 11 — Ideal post-PhD plan
 
 - Career intention stated directly by Jeremy.
-- Visual: placeholder requesting a real maritime-research or stakeholder
-  photo; final source remains to be selected.
+- Visual: `assets/slide-12.jpg`, a user-supplied maritime-stakeholder
+  photograph.
 
-### Slide 13 — Part 1 transition
+### Slide 12 — Part 1 transition
 
 - Transition follows the approved two-part lecture structure.
 - Visual: no image.
 
 ## Implemented Part 2 slides
 
-### Slide 14 — Is shipping a significant global emitter?
+### Slide 13 — Is shipping a significant global emitter?
 
 - Opening discussion prompt supplied by Jeremy and refined for the lecture.
 - Road transport, aviation, trade dependence and fleet activity are presented
   as prompts rather than factual comparisons.
 - Visual: no image.
 
-### Slide 15 — Fuel-based emissions calculation
+### Slide 14 — Fuel-based emissions calculation
 
 - IMO quick guidance states that ship CO2 emissions can be calculated as fuel
   consumption multiplied by the fuel-specific emission factor.
@@ -115,7 +113,7 @@ unapproved course files.
   tonnes of CO2.
 - Visual: native equation and numerical example; no external image.
 
-### Slide 16 — Global fleet and bottom-up estimation
+### Slide 15 — Global fleet and bottom-up estimation
 
 - UN Trade and Development data insight: the global merchant fleet included
   around 116,000 vessels of at least 100 gross tons at the start of 2026.
@@ -124,14 +122,15 @@ unapproved course files.
   fuel use ship by ship and aggregate the results.
 - Visual: native three-step explanation; no external image.
 
-### Slide 17 — Maritime-big-data teaching diagram
+### Slide 16 — Maritime-big-data teaching diagram
 
 - Teaching sequence supplied by Jeremy: use movement records to distinguish
   sailing, waiting and port time; combine activity with ship and engine
   information; then aggregate ship-level fuel estimates.
-- Visual: nearly full-width placeholder for a simple teaching diagram.
+- Visual: `assets/slide-17.png`, a user-supplied illustrative teaching
+  diagram. It explains the estimation workflow and is not empirical output.
 
-### Slide 18 — Fourth IMO GHG Study evidence
+### Slide 17 — Fourth IMO GHG Study evidence
 
 - International Maritime Organization, *Fourth IMO Greenhouse Gas Study
   2020*: total shipping emitted 1,056 million tonnes of CO2 in 2018,
@@ -140,29 +139,30 @@ unapproved course files.
   policy discussion.
 - Visual: native two-number comparison; no external image.
 
-### Slide 19 — Comparing pathways
+### Slide 18 — Comparing pathways
 
 - International Maritime Organization, *2023 IMO Strategy on Reduction of GHG
   Emissions from Ships*.
 - International Maritime Organization, *Future Fuels and Technology Project*.
 - Visual: native numbered sequence; no external image.
 
-### Slide 20 — Implementation conditions
+### Slide 19 — Implementation conditions
 
 - Barrier categories synthesised from the IMO 2023 GHG Strategy and Clydebank
   Declaration.
 - Visual: native sequence of three assessment questions; no external image.
 
-### Slide 21 — Green Shipping Corridors and coordination
+### Slide 20 — Green Shipping Corridors and coordination
 
 - UK Government, *COP26 Clydebank Declaration for Green Shipping Corridors*:
   corridors are zero-emission maritime routes between two or more ports and
   depend on partnerships across the value chain.
 - Coordination explanation synthesised from the Clydebank Declaration and the
   Green Shipping Corridor implementation sources listed below.
-- Visual: placeholder requesting a clean route-focused coordination diagram.
+- Visual: `assets/slide-21.png`, a user-supplied illustrative coordination
+  graphic.
 
-### Slide 22 — Green Shipping Corridor feasibility gap
+### Slide 21 — Green Shipping Corridor feasibility gap
 
 - Global Maritime Forum, *Annual Progress Report on Green Shipping Corridors
   2025*: 84 active initiatives, four at the realisation stage and many
@@ -170,17 +170,17 @@ unapproved course files.
   conventional and zero-emission fuels.
 - Visual: native 84-versus-4 comparison with a yellow feasibility-wall label.
 
-### Slide 23 — Maritime big data and route selection
+### Slide 22 — Maritime big data and route selection
 
 - Research framing supplied by Jeremy and adapted from the approved Green
   Shipping Corridor case.
 - Global Maritime Forum: some routes offer relative advantages because of fuel
   access, operational profiles or economics; corridor development seeks to
   identify and leverage these routes.
-- Visual: placeholder requesting a simplified movement-data map that
-  highlights repeated traffic, scale and operator concentration.
+- Visual: `assets/slide-23.png`, a user-supplied illustrative candidate-route
+  map. It is explanatory and is not an empirical data visualisation.
 
-### Slide 24 — Hong Kong–San Antonio / Cherry Express
+### Slide 23 — Hong Kong–San Antonio / Cherry Express
 
 - Jeremy's earlier ENVR 4350 presentation contains the 2021 candidate-route
   comparison. San Antonio--Hong Kong ranked first by estimated fuel demand,
@@ -196,7 +196,7 @@ unapproved course files.
 - Visual: placeholder requesting a recurring Hong Kong--San Antonio route map
   with a small Cherry Express or reefer-container cue.
 
-### Slide 25 — From research to policy dialogue
+### Slide 24 — From research to policy dialogue
 
 - April 2025 presentation: Jeremy's personal account and presentation record
   supplied privately.
@@ -204,16 +204,18 @@ unapproved course files.
   of Chile was included in Hong Kong's first batch of Partner Ports.
 - The slide presents a sequence and contribution to dialogue; it does not
   claim that Jeremy's research caused the Partner Port decision.
-- Visual: placeholder requesting a real presentation or public Partner Port
-  announcement image.
+- Visual: `assets/slide-25.png`, a user-supplied screenshot of Michael
+  Grinter's Hong Kong Maritime Hub article, *Hong Kong's CE unveils port
+  partnership arrangements at ALAMC*, 18 November 2025:
+  https://www.hongkongmaritimehub.com/hong-kongs-ce-unveils-port-partnership-arrangements-at-alamc/
 
-### Slide 26 — What science contributes
+### Slide 25 — What science contributes
 
 - Closing synthesis: approved lecture argument, supported by the IMO 2023 GHG
   Strategy's recognition of technical, institutional and supportive measures.
 - Visual: no image.
 
-### Slide 27 — Thank you and contact
+### Slide 26 — Thank you and contact
 
 - Contact email and personal-homepage URL supplied directly by Jeremy and
   explicitly approved for public display.

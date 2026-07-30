@@ -77,32 +77,6 @@
   }%
 }
 
-\newcommand{\wideimageplaceholder}[1]{%
-  \setlength{\fboxsep}{0pt}%
-  \fcolorbox{Navy}{Placeholder}{%
-    \parbox[c][3.55cm][c]{0.985\linewidth}{%
-      \centering
-      {\color{Navy}\fontsize{8.5}{10.5}\selectfont\bfseries PHOTO COLLAGE PLACEHOLDER\par}
-      \vspace{0.2cm}
-      {\color{Muted}\fontsize{9}{11.5}\selectfont\itshape #1\par}
-    }%
-  }%
-}
-
-\newcommand{\largediagramplaceholder}[1]{%
-  \setlength{\fboxsep}{0pt}%
-  \fcolorbox{Navy}{Placeholder}{%
-    \parbox[c][4.35cm][c]{0.985\linewidth}{%
-      \centering
-      {\color{Navy}\fontsize{9}{11}\selectfont\bfseries DIAGRAM PLACEHOLDER\par}
-      \vspace{0.2cm}
-      \parbox{0.83\linewidth}{%
-        \centering
-        {\color{Muted}\fontsize{10}{13}\selectfont\itshape #1\par}
-      }%
-    }%
-  }%
-}
 
 \begin{document}
 
@@ -276,14 +250,19 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{Huawei career plan, RA opening or the turning-point conversation}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-5.png}
     \end{column}
   \end{columns}
   \note{
     [Sources]\par
     - Career and PhD-decision story: Jeremy's earlier presentation and
       personal account supplied privately.\par
-    - Visual: placeholder only.
+    - Visual: user-supplied illustrative turning-point graphic,
+      assets/slide-5.png.
   }
 \end{frame}
 
@@ -305,43 +284,23 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{Computer games, coding or an early programming setup}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-6.png}
     \end{column}
   \end{columns}
   \note{
     [Sources]\par
     - Personal interest in computer games and coding supplied by Jeremy.\par
     - Research description cross-checked against Jeremy's public website.\par
-    - Visual: placeholder only.
+    - Visual: user-supplied illustrative coding graphic,
+      assets/slide-6.png.
   }
 \end{frame}
 
-% Slide 7 — the fit
-\begin{frame}[plain]
-  \vfill
-  \partlabel{The fit}
-  \vspace{0.3cm}
-  {\color{Navy}\rule{1.3cm}{0.9pt}\par}
-
-  \vspace{0.52cm}
-  {\color{Ink}\fontsize{27}{32}\selectfont\bfseries
-    Shipping gave me the subject.\\
-    Coding and developing algorithms\\
-    gave me the tools.
-  \par}
-
-  \vspace{0.48cm}
-  {\color{Ink}\fontsize{15}{19}\selectfont
-    Research brought the two together.
-  \par}
-  \vfill
-  \note{
-    [Sources]\par
-    - Personal research framing supplied by Jeremy.
-  }
-\end{frame}
-
-% Slide 8 — current research
+% Slide 7 — current research
 \begin{frame}{Today, I use data to understand how shipping works.}
   \vspace{0.08cm}
   \begin{columns}[T,onlytextwidth]
@@ -358,17 +317,22 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A simplified AIS or vessel-activity map showing movement patterns and concentrated activity—not a generic ship photo}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide8.png}
     \end{column}
   \end{columns}
   \note{
     [Sources]\par
     - Research description cross-checked against Jeremy's public website.\par
-    - Visual brief: simplified AIS or vessel-activity map; placeholder only.
+    - Visual: user-supplied illustrative vessel-activity graphic,
+      assets/slide8.png.
   }
 \end{frame}
 
-% Slide 9 — research logic
+% Slide 8 — research logic
 \begin{frame}{The methods are complicated. The logic is simple.}
   \vspace{0.55cm}
   \begin{columns}[c,onlytextwidth]
@@ -418,7 +382,7 @@
   }
 \end{frame}
 
-% Slide 10 — beyond the paper
+% Slide 9 — beyond the paper
 \begin{frame}{A paper is not the final destination.}
   \vspace{0.18cm}
   \begin{columns}[T,onlytextwidth]
@@ -435,37 +399,42 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A real photo of Jeremy presenting research to port, policy or industry stakeholders}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-10.png}
     \end{column}
   \end{columns}
   \note{
     [Sources]\par
     - Personal research framing supplied by Jeremy and his earlier
       presentation.\par
-    - Visual brief: real stakeholder-presentation photo; placeholder only.
+    - Visual: user-supplied illustrative stakeholder-presentation graphic,
+      assets/slide-10.png.
   }
 \end{frame}
 
-% Slide 11 — sharing the research
-\begin{frame}{Research gave me something worth sharing.}
-  \vspace{0.02cm}
-  {\color{Ink}\fontsize{11.8}{15.5}\selectfont
-    With research and data in hand, I began taking the work to different
-    places—and presenting it to different audiences.
-  \par}
-
-  \vspace{0.28cm}
-  \wideimageplaceholder{Use 3–5 real photos of Jeremy giving presentations or attending academic, policy and maritime-industry events. Mix podium, panel and activity images; add place and year captions later.}
+% Slide 10 — sharing the research
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=center,inner sep=0pt] at (current page.center) {%
+      \includegraphics[
+        width=\paperwidth
+      ]{../assets/slide-11.png}%
+    };
+  \end{tikzpicture}
   \note{
     [Sources]\par
     - Personal presentation and event experience supplied by Jeremy.\par
-    - Visual brief: 3–5 real presentation and event photos; placeholder only.\par
-    - Record the event, location, date and photographer/source for each final
-      image.
+    - Visual: user-supplied group photograph from the Green Fuels Transition
+      for International Shipping Workshop, November 2024,
+      assets/slide-11.png.\par
+    - Photographer/source details remain to be confirmed.
   }
 \end{frame}
 
-% Slide 12 — ideal post-PhD plan
+% Slide 11 — ideal post-PhD plan
 \begin{frame}{The ideal plan is to stay in shipping research.}
   \vspace{0.1cm}
   \begin{columns}[T,onlytextwidth]
@@ -482,18 +451,22 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A real photo of Jeremy doing maritime research or discussing evidence with shipping-industry partners}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-12.jpg}
     \end{column}
   \end{columns}
   \note{
     [Sources]\par
     - Post-PhD ideal scenario stated directly by Jeremy.\par
-    - Visual brief: real research or maritime-stakeholder photo; placeholder
-      only.
+    - Visual: user-supplied maritime-stakeholder photograph,
+      assets/slide-12.jpg.
   }
 \end{frame}
 
-% Slide 13 — Part 1 transition
+% Slide 12 — Part 1 transition
 \begin{frame}[plain]
   \vfill
   \partlabel{From my story to the research}
@@ -523,7 +496,7 @@
 % Part 2 uses a quieter title scale suited to lecture content.
 \setbeamerfont{frametitle}{size=\fontsize{17.28}{20.5},series=\bfseries}
 
-% Slide 14 — opening policy question
+% Slide 13 — opening policy question
 \begin{frame}{Is shipping a significant source of global carbon emissions?}
   \vspace{0.14cm}
   {\color{Ink}\fontsize{11.8}{15.5}\selectfont
@@ -551,7 +524,7 @@
   }
 \end{frame}
 
-% Slide 15 — fuel-based emissions estimate
+% Slide 14 — fuel-based emissions estimate
 \begin{frame}{How can we estimate carbon emissions from shipping?}
   \vspace{0.3cm}
   \partlabel{The basic calculation}
@@ -588,7 +561,7 @@
   }
 \end{frame}
 
-% Slide 16 — global fuel-use estimation
+% Slide 15 — global fuel-use estimation
 \begin{frame}{But how do we know the fuel use of every ship?}
   \vspace{0.08cm}
   {\color{Ink}\fontsize{11.2}{14.5}\selectfont
@@ -622,27 +595,27 @@
   }
 \end{frame}
 
-% Slide 17 — maritime big-data teaching diagram
-\begin{frame}{From maritime big data to fuel estimates}
-  \vspace{0.04cm}
-  {\color{Ink}\fontsize{10.8}{14}\selectfont
-    Movement data reveals how each ship operates over time. The same logic
-    can then be repeated across the fleet.
-  \par}
-
-  \vspace{0.2cm}
-  \largediagramplaceholder{Show one ship leaving a time-ordered movement trail. Label periods of sailing, waiting and port time. Combine this activity with simple ship and engine information to produce one fuel-use estimate. Then zoom out to many ship tracks whose estimates are added into a global total.}
+% Slide 16 — maritime big-data teaching diagram
+\begin{frame}[plain]
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south west,inner sep=0pt] at (current page.south west) {%
+      \includegraphics[
+        width=\paperwidth,
+        height=\paperheight,
+        keepaspectratio
+      ]{../assets/slide-17.png}%
+    };
+  \end{tikzpicture}
   \note{
     [Sources]\par
     - Visual brief developed from Jeremy's explanation of maritime big data
       and the bottom-up method.\par
-    - Final visual should be a simple teaching diagram, not a technical
-      dashboard or an unlabeled AIS screenshot.\par
-    - Placeholder only.
+    - Visual: user-supplied illustrative teaching diagram,
+      assets/slide-17.png.
   }
 \end{frame}
 
-% Slide 18 — IMO evidence
+% Slide 17 — IMO evidence
 \begin{frame}{A global study provides the evidence}
   \vspace{0.04cm}
   {\color{Ink}\fontsize{10.8}{14}\selectfont
@@ -696,7 +669,7 @@
   }
 \end{frame}
 
-% Slide 19 — compare pathways
+% Slide 18 — compare pathways
 \begin{frame}{There is no single decarbonisation pathway}
   \vspace{0.12cm}
   {\color{Ink}\fontsize{11.7}{15.2}\selectfont
@@ -728,7 +701,7 @@
   }
 \end{frame}
 
-% Slide 20 — implementation conditions
+% Slide 19 — implementation conditions
 \begin{frame}{Implementation depends on the wider system}
   \vspace{0.12cm}
   {\color{Ink}\fontsize{11.7}{15.2}\selectfont
@@ -758,7 +731,7 @@
   }
 \end{frame}
 
-% Slide 21 — Green Shipping Corridors and coordination
+% Slide 20 — Green Shipping Corridors and coordination
 \begin{frame}{Green Shipping Corridors coordinate action}
   \vspace{0.08cm}
   \begin{columns}[T,onlytextwidth]
@@ -779,7 +752,11 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A clean route-focused diagram: Port A ↔ Port B, with ships, cargo and low-GHG fuel partners connected around the route}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-21.png}
     \end{column}
   \end{columns}
   \note{
@@ -791,11 +768,12 @@
     - Optional prompt: is a corridor a route, a technology or a coordination
       mechanism? Answer: primarily a coordination mechanism focused on a
       route.\par
-    - Visual: placeholder only.
+    - Visual: user-supplied illustrative coordination graphic,
+      assets/slide-21.png.
   }
 \end{frame}
 
-% Slide 22 — Green Shipping Corridor implementation dilemma
+% Slide 21 — Green Shipping Corridor implementation dilemma
 \begin{frame}{The idea is attractive. Delivery is difficult.}
   \vspace{0.04cm}
   {\color{Ink}\fontsize{10.8}{14}\selectfont
@@ -857,7 +835,7 @@
   }
 \end{frame}
 
-% Slide 23 — maritime data and route selection
+% Slide 22 — maritime data and route selection
 \begin{frame}{Maritime big data helps identify promising corridors}
   \vspace{0.05cm}
   {\color{Ink}\fontsize{10.8}{14}\selectfont
@@ -880,7 +858,11 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A simplified movement-data map showing many ship tracks, then highlighting one recurring Port A–Port B service; label frequency, traffic scale and operator concentration}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=3.85cm,
+        keepaspectratio
+      ]{../assets/slide-23.png}
     \end{column}
   \end{columns}
   \vfill
@@ -897,12 +879,12 @@
       because of fuel access, operational profiles or economics; corridors
       seek to identify and leverage those routes.\par
     - https://globalmaritimeforum.org/green-corridors/\par
-    - Visual brief: simplified movement-data map comparing candidate routes;
-      placeholder only.
+    - Visual: user-supplied illustrative candidate-route map,
+      assets/slide-23.png.
   }
 \end{frame}
 
-% Slide 24 — why the Hong Kong–San Antonio route stands out
+% Slide 23 — why the Hong Kong–San Antonio route stands out
 \begin{frame}{Why San Antonio--Hong Kong stands out}
   \vspace{0.08cm}
   \partlabel{2021 route analysis · \#1 by estimated fuel demand}
@@ -976,7 +958,7 @@
   }
 \end{frame}
 
-% Slide 25 — research into policy dialogue
+% Slide 24 — research into policy dialogue
 \begin{frame}{Research can inform policy dialogue}
   \vspace{0.02cm}
   \begin{columns}[T,onlytextwidth]
@@ -1011,7 +993,11 @@
     \end{column}
 
     \begin{column}{0.35\textwidth}
-      \imageplaceholder{A real April 2025 presentation photo or a public image from the Hong Kong Partner Port announcement}
+      \includegraphics[
+        width=0.93\linewidth,
+        height=5.1cm,
+        keepaspectratio
+      ]{../assets/slide-25.png}
     \end{column}
   \end{columns}
   \note{
@@ -1023,11 +1009,13 @@
     - https://www.tlb.gov.hk/eng/psp/pressreleases/transport/2025/20251117c.html\par
     - Delivery note: present this as a sequence and contribution to dialogue,
       not as proof that the research caused the Partner Port decision.\par
-    - Visual: placeholder only.
+    - Visual: user-supplied screenshot of Hong Kong Maritime Hub, Hong Kong's
+      CE unveils port partnership arrangements at ALAMC, 18 November 2025,
+      assets/slide-25.png.
   }
 \end{frame}
 
-% Slide 26 — conclusion
+% Slide 25 — conclusion
 \begin{frame}{What science contributes}
   \vspace{0.15cm}
   {\color{Ink}\fontsize{12}{15.7}\selectfont
@@ -1057,7 +1045,7 @@
   }
 \end{frame}
 
-% Slide 27 — thank you and contact
+% Slide 26 — thank you and contact
 \begin{frame}[plain]
   \begin{tikzpicture}[remember picture,overlay]
     \node[anchor=center,inner sep=0pt] at (current page.center) {%

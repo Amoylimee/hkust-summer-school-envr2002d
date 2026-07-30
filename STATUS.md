@@ -1,13 +1,13 @@
 # Project status
 
-Last updated: 2026-07-30
+Last updated: 2026-07-31
 
 ## Current state
 
 The repository has been migrated to the approved LaTeX Beamer production
 route.
 
-The active deck currently contains twenty-seven slides: thirteen Part 1 slides
+The active deck currently contains twenty-six slides: twelve Part 1 slides
 and fourteen Part 2 slides.
 
 Part 1:
@@ -18,40 +18,38 @@ Part 1:
 4. shipping and family background;
 5. the Huawei / Research Assistant / PhD turning point;
 6. computer games and coding;
-7. shipping as the subject, with coding and algorithm development as the
-   tools;
-8. understanding shipping through vessel-activity data;
-9. the three-step research logic from observation to useful evidence;
-10. research moving beyond a paper into practical conversations;
-11. a photo-led page for presentations and events where Jeremy shared his
+7. understanding shipping through vessel-activity data;
+8. the three-step research logic from observation to useful evidence;
+9. research moving beyond a paper into practical conversations;
+10. a photo-led page for presentations and events where Jeremy shared his
     research;
-12. the ideal post-PhD shipping-research path;
-13. the transition into Part 2.
+11. the ideal post-PhD shipping-research path;
+12. the transition into Part 2.
 
 Part 2:
 
-14. an opinion-led discussion of whether shipping is a significant source of
+13. an opinion-led discussion of whether shipping is a significant source of
     global carbon emissions;
-15. the simple fuel-consumption × emission-factor calculation;
-16. the global fleet data problem, explained through one ship's activity and
+14. the simple fuel-consumption × emission-factor calculation;
+15. the global fleet data problem, explained through one ship's activity and
     a layman-level bottom-up method;
-17. a full-width placeholder for the maritime-big-data teaching diagram;
-18. the Fourth IMO Greenhouse Gas Study as evidence for policy discussion;
-19. a top-to-bottom sequence of efficiency, operational, fuel and port
+16. a full-width maritime-big-data teaching diagram;
+17. the Fourth IMO Greenhouse Gas Study as evidence for policy discussion;
+18. a top-to-bottom sequence of efficiency, operational, fuel and port
     pathways;
-20. three practical implementation tests;
-21. Green Shipping Corridors as route-focused coordination mechanisms;
-22. the implementation gap between active Green Shipping Corridor initiatives
+19. three practical implementation tests;
+20. Green Shipping Corridors as route-focused coordination mechanisms;
+21. the implementation gap between active Green Shipping Corridor initiatives
     and projects reaching the realisation stage;
-23. maritime big data for identifying routes with credible starting
+22. maritime big data for identifying routes with credible starting
     conditions;
-24. the data-based case for San Antonio–Hong Kong: first-ranked estimated
+23. the data-based case for San Antonio–Hong Kong: first-ranked estimated
     fuel demand, repeated voyages, long voyage duration and a concentrated
     decarbonisation opportunity;
-25. the movement from April 2025 research presentation to wider policy
+24. the movement from April 2025 research presentation to wider policy
     dialogue and the Partner Port announcement;
-26. the closing boundary between scientific evidence and policy decisions;
-27. a thank-you and questions page with Jeremy's email and personal website.
+25. the closing boundary between scientific evidence and policy decisions;
+26. a thank-you and questions page with Jeremy's email and personal website.
 
 Active files:
 
@@ -63,7 +61,7 @@ Active files:
 
 The primary compiled deck now sits beside its source at `src/main.pdf`.
 The compatibility build script also refreshes the copy under `output/`.
-The current PDF is 16:9, contains twenty-seven pages and compiles without
+The current PDF is 16:9, contains twenty-six pages and compiles without
 overfull boxes, underfull boxes, font warnings or missing glyphs.
 
 Part 2 has been redesigned as a lecture sequence with a quieter title scale,
@@ -76,8 +74,8 @@ explanations and more precise visible copy following Jeremy's writing style.
 - Visual style: white background, black Times-style serif typography and
   restrained dark-navy rules and labels.
 - Cover, overview and section dividers are text-only.
-- Content slides may use a right-side image, but placeholders remain until
-  relevant visuals are approved.
+- Content slides may use a right-side image; one route-map placeholder remains
+  until a relevant visual is approved.
 
 ## Repository cleanup
 
@@ -92,7 +90,7 @@ auxiliary files are removed after validation.
 
 - Promoted the approved economics-style Beamer sample to `src/main.tex`.
 - Added a reproducible XeLaTeX build script.
-- Generated the active twenty-seven-page lecture PDF.
+- Generated the active twenty-six-page lecture PDF.
 - Added hidden `[Sources]` notes to all Part 1 and Part 2 frames.
 - Rewrote the repository instructions and build documentation.
 - Updated the stable structure and durable decisions.
@@ -134,25 +132,28 @@ auxiliary files are removed after validation.
   slide 5.
 - Replaced slide 4's placeholder with Jeremy's portrait pixel-art illustration
   connecting the family shipping story with his maritime studies.
-- Reworked slide 24 around the earlier presentation and op-ed evidence,
+- Reworked slide 23 around the earlier presentation and op-ed evidence,
   showing why the San Antonio--Hong Kong route stands out in the data and what
   the figures imply for corridor potential.
-- Re-spaced slide 24 into two clearly separated metric rows and replaced its
+- Re-spaced slide 23 into two clearly separated metric rows and replaced its
   heavy full-width conclusion banner with a lighter inline takeaway.
+- Removed the separate shipping-plus-coding synthesis page to tighten Part 1.
+- Replaced most of the remaining approved placeholders with user-supplied
+  illustrations, teaching graphics and photographs on the personal-story,
+  maritime-data, corridor and policy-dialogue pages.
+- Replaced the photo-collage placeholder with a full-page November 2024 Green
+  Fuels Transition for International Shipping Workshop group photograph.
+- Updated slide numbering, source notes and visual provenance for the
+  twenty-six-page sequence.
 
 ## Exact next task
 
-Jeremy should review the visible copy and pacing of slides 14–27. Then provide
-or approve the highest-priority real visuals:
+Jeremy should review the visible copy and pacing of slides 13–26. The remaining
+visual priority is the Hong Kong–San Antonio / Cherry Express route visual on
+slide 23, which still uses a placeholder.
 
-1. a ship-activity-to-fuel-estimate teaching diagram for slide 17;
-2. a Green Shipping Corridor route diagram for slide 21;
-3. a simplified movement-data candidate-route map for slide 23;
-4. a Hong Kong–San Antonio / Cherry Express route visual for slide 24;
-5. an April 2025 presentation or Partner Port image for slide 25.
-
-The Part 1 photo request also remains open: slide 11 needs 3–5 presentation and
-event photos with event, location, year and photographer/source context.
+Confirm the photographer/source details for the November 2024 workshop group
+photo on slide 10 before final publication.
 
 For visuals, decide slide by slide whether to:
 
@@ -163,7 +164,9 @@ For visuals, decide slide by slide whether to:
 
 ## Known open items
 
-- Final images have not been selected.
+- The Hong Kong–San Antonio route image on slide 23 remains a placeholder.
+- Photographer/source details for the slide 10 workshop group photo remain to
+  be confirmed.
 - Full delivery notes still need to be expanded after the visible copy and
   visuals are approved.
 
