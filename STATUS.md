@@ -74,8 +74,7 @@ explanations and more precise visible copy following Jeremy's writing style.
 - Visual style: white background, black Times-style serif typography and
   restrained dark-navy rules and labels.
 - Cover, overview and section dividers are text-only.
-- Content slides may use a right-side image; one route-map placeholder remains
-  until a relevant visual is approved.
+- Content slides may use a right-side image or remain text-only.
 
 ## Repository cleanup
 
@@ -138,22 +137,20 @@ auxiliary files are removed after validation.
 - Re-spaced slide 23 into two clearly separated metric rows and replaced its
   heavy full-width conclusion banner with a lighter inline takeaway.
 - Removed the separate shipping-plus-coding synthesis page to tighten Part 1.
-- Replaced most of the remaining approved placeholders with user-supplied
+- Replaced the approved image placeholders with user-supplied
   illustrations, teaching graphics and photographs on the personal-story,
   maritime-data, corridor and policy-dialogue pages.
 - Replaced the photo-collage placeholder with a full-page November 2024 Green
   Fuels Transition for International Shipping Workshop group photograph.
 - Updated slide numbering, source notes and visual provenance for the
   twenty-six-page sequence.
+- Removed the Hong Kong--San Antonio route-map placeholder and expanded slide
+  23 into a full-width four-metric layout.
+- Highlighted the energy-source pathway on slide 18.
 
 ## Exact next task
 
-Jeremy should review the visible copy and pacing of slides 13–26. The remaining
-visual priority is the Hong Kong–San Antonio / Cherry Express route visual on
-slide 23, which still uses a placeholder.
-
-Confirm the photographer/source details for the November 2024 workshop group
-photo on slide 10 before final publication.
+Jeremy should review the visible copy and pacing of slides 13–26.
 
 For visuals, decide slide by slide whether to:
 
@@ -164,9 +161,6 @@ For visuals, decide slide by slide whether to:
 
 ## Known open items
 
-- The Hong Kong–San Antonio route image on slide 23 remains a placeholder.
-- Photographer/source details for the slide 10 workshop group photo remain to
-  be confirmed.
 - Full delivery notes still need to be expanded after the visible copy and
   visuals are approved.
 

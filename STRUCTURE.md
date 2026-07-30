@@ -25,7 +25,7 @@ decarbonisation without determining policy by itself.
 - restrained dark-navy rules and labels;
 - cover, overview and section divider are text-only;
 - content slides may use text on the left and an image on the right;
-- keep an image placeholder until a relevant visual is approved.
+- leave a slide text-only when no relevant visual is needed.
 
 ---
 
@@ -63,12 +63,12 @@ Part 2 contains fourteen slides.
 | 15 | Introduce the global data problem | **But how do we know the fuel use of every ship?** Use maritime big data as a moving diary for one ship, estimate its fuel use and repeat across the fleet. | Full-width three-step explanation with no competing image. |
 | 16 | Show the teaching visual | **From maritime big data to fuel estimates.** Movement data reveals how each ship operates, and the same logic scales across the fleet. | Full-page user-supplied teaching diagram. |
 | 17 | Reveal the evidence | **A global study provides the evidence.** The Fourth IMO Greenhouse Gas Study estimated 1,056 million tonnes of shipping CO2 in 2018, representing 2.89% of global anthropogenic CO2. | Balanced two-number comparison with a yellow, mixed-case evidence highlight. |
-| 18 | Compare response categories | **There is no single decarbonisation pathway.** Use less energy, operate ships differently, change the energy source and prepare ports. | One numbered top-to-bottom reading sequence; no image. |
+| 18 | Compare response categories | **There is no single decarbonisation pathway.** Use less energy, operate ships differently, change the energy source and prepare ports. | One numbered top-to-bottom reading sequence; the energy-source option is highlighted in yellow. |
 | 19 | Explain implementation conditions | **Implementation depends on the wider system.** Ask whether a promising technology can work, pay and operate within the rules. | Three numbered practical tests in a top-to-bottom sequence. |
 | 20 | Define corridors and coordination together | **Green Shipping Corridors coordinate action.** Focus partners on one route and align vessels, fuel, infrastructure, finance, standards and policy. | Bullet-led explanation with a user-supplied coordination graphic. |
 | 21 | Introduce the implementation dilemma | **The idea is attractive. Delivery is difficult.** The 2025 review tracked 84 active initiatives but only four at the realisation stage; many face a cost-driven feasibility wall. | Large 84-versus-4 comparison, yellow feasibility-wall label and a transition question about starting conditions. |
 | 22 | Return to Jeremy's data contribution | **Maritime big data helps identify promising corridors.** Reuse movement data to find repeated port pairs, identify vessels and operators, and compare traffic scale and service concentration. | Three numbered steps beside a user-supplied candidate-route map; yellow science-role highlight. |
-| 23 | Show why the route stands out in the data | **Why San Antonio–Hong Kong stands out.** The 2021 analysis ranked it first among Hong Kong's candidate corridors by estimated fuel demand: 52 two-way voyages, 29 ships, 23.3 average voyage days and 243,725 tonnes of estimated annual fuel demand. | Four well-separated data points in two rows beside a recurring-route-map placeholder; an inline yellow highlight explains the implication without a full-width banner. |
+| 23 | Show why the route stands out in the data | **Why San Antonio–Hong Kong stands out.** The 2021 analysis ranked it first among Hong Kong's candidate corridors by estimated fuel demand: 52 two-way voyages, 29 ships, 23.3 average voyage days and 243,725 tonnes of estimated annual fuel demand. | Four full-width data points in one row; an inline yellow highlight explains the implication. No image. |
 | 24 | Connect research with dialogue carefully | **Research can inform policy dialogue.** April 2025 presentation, 17 November 2025 Partner Port announcement and continuing work. | Left timeline with April and November dates highlighted in yellow; right user-supplied composite visual. |
 | 25 | Close with a precise synthesis | **What science contributes.** Better problem definition, transparent comparison, feasibility evidence and a shared analytical basis; policy also reflects institutions, economics, politics and values. | Bullet-led closing synthesis. |
 | 26 | End with contact details | **Questions?** Jeremy Jiajing Chen, jchenhl@connect.ust.hk and https://amoylimee.github.io/. | Full-bleed Hong Kong Victoria Harbour night photograph with a dark overlay, white contact text, clickable links and a small photographer credit. |

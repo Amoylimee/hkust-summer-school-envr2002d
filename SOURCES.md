@@ -80,8 +80,6 @@ unapproved course files.
 - Presentation and event experience supplied directly by Jeremy.
 - Visual: `assets/slide-11.png`, a user-supplied group photograph from the
   Green Fuels Transition for International Shipping Workshop, November 2024.
-- Photographer/source details remain to be confirmed before final
-  publication.
 
 ### Slide 11 — Ideal post-PhD plan
 
@@ -193,8 +191,7 @@ unapproved course files.
   `../reference-materials/previous-talks/TA-Presentation-Session-for-ENVR-4350.pdf`
   and
   `../../../202512_hk-gcs-op-eds/Op-Ed_Clean_CHEN_23.12.2025.docx`.
-- Visual: placeholder requesting a recurring Hong Kong--San Antonio route map
-  with a small Cherry Express or reefer-container cue.
+- Visual: native four-metric layout; no external image.
 
 ### Slide 24 — From research to policy dialogue
 

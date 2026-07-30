@@ -1,21 +1,14 @@
 # Current visual assets
 
 The active LaTeX Beamer deck contains user-supplied illustrations, teaching
-graphics and photographs alongside the approved closing photograph. The
-Hong Kong--San Antonio route page still uses a labelled placeholder in
-`src/main.tex`.
-
-Each placeholder contains its slide-specific visual brief. Treat that wording
-as a content requirement: a replacement image should satisfy the brief rather
-than merely fill the available space.
+graphics and photographs alongside the approved closing photograph. Slides
+without a relevant visual remain text-only.
 
 Slide 16 uses a full-page teaching diagram that moves from one ship's activity
 record to estimated fuel use, then from many ship-level estimates to a global
 total.
 
-Slide 23 reserves a right-side area for the remaining Hong Kong--San Antonio
-route visual. Show the recurring port pair and add a small Cherry Express or
-reefer-container cue.
+Slide 23 uses a native four-metric layout without an external image.
 
 ### slide-4.png
 
@@ -64,7 +57,6 @@ reefer-container cue.
 - Subject: Green Fuels Transition for International Shipping Workshop
 - Date: November 2024
 - Use: full-page photo on slide 10
-- Source status: photographer/source details remain to be confirmed
 - Treatment: centred full-bleed crop
 
 ### slide-12.jpg
@@ -121,7 +113,7 @@ When a final image is approved:
 
 1. save it in this directory using a descriptive filename;
 2. record its source and purpose in `SOURCES.md`;
-3. replace the relevant placeholder in `src/main.tex`;
+3. add the visual to the relevant frame in `src/main.tex`;
 4. rebuild and inspect the full slide at presentation size.
 
 Images are optional. Add one only when it materially improves understanding

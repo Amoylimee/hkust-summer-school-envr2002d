@@ -65,19 +65,6 @@
   {\color{Navy}\fontsize{9}{11}\selectfont\bfseries\MakeUppercase{#1}\par}
 }
 
-\newcommand{\imageplaceholder}[1]{%
-  \setlength{\fboxsep}{0pt}%
-  \fcolorbox{Navy}{Placeholder}{%
-    \parbox[c][3.65cm][c]{0.93\linewidth}{%
-      \centering
-      {\color{Navy}\fontsize{8}{10}\selectfont\bfseries IMAGE PLACEHOLDER\par}
-      \vspace{0.18cm}
-      {\color{Muted}\fontsize{8.5}{11}\selectfont\itshape #1\par}
-    }%
-  }%
-}
-
-
 \begin{document}
 
 % Slide 1 — lecture cover
@@ -429,8 +416,7 @@
     - Personal presentation and event experience supplied by Jeremy.\par
     - Visual: user-supplied group photograph from the Green Fuels Transition
       for International Shipping Workshop, November 2024,
-      assets/slide-11.png.\par
-    - Photographer/source details remain to be confirmed.
+      assets/slide-11.png.
   }
 \end{frame}
 
@@ -681,8 +667,8 @@
         systems.
       \item \textbf{Operate ships differently.} Adjust speed, routing,
         loading and port calls.
-      \item \textbf{Change the energy source.} Use fuels with lower lifecycle
-        greenhouse gas emissions.
+      \item \colorbox{HighlightYellow}{\textbf{Change the energy source.}}
+        Use fuels with lower lifecycle greenhouse gas emissions.
       \item \textbf{Prepare ports.} Provide bunkering, shore power, safety
         systems and supporting logistics.
     \end{enumerate}
@@ -891,52 +877,41 @@
 
   \vspace{0.3cm}
   \begin{columns}[T,onlytextwidth]
-    \begin{column}{0.58\textwidth}
-      \begin{columns}[T,totalwidth=\textwidth]
-        \begin{column}{0.42\textwidth}
-          {\color{Navy}\fontsize{23}{26}\selectfont\bfseries 52\par}
-          \vspace{0.04cm}
-          {\color{Muted}\fontsize{9}{11.5}\selectfont
-            two-way voyages
-          \par}
-        \end{column}
-
-        \begin{column}{0.42\textwidth}
-          {\color{Navy}\fontsize{23}{26}\selectfont\bfseries 29\par}
-          \vspace{0.04cm}
-          {\color{Muted}\fontsize{9}{11.5}\selectfont
-            ships serving the route
-          \par}
-        \end{column}
-      \end{columns}
-
-      \vspace{0.34cm}
-      {\color{RuleGray}\rule{\textwidth}{0.5pt}\par}
-      \vspace{0.3cm}
-
-      \begin{columns}[T,totalwidth=\textwidth]
-        \begin{column}{0.42\textwidth}
-          {\color{Navy}\fontsize{23}{26}\selectfont\bfseries 23.3\par}
-          \vspace{0.04cm}
-          {\color{Muted}\fontsize{9}{11.5}\selectfont
-            average voyage days
-          \par}
-        \end{column}
-
-        \begin{column}{0.42\textwidth}
-          {\color{Navy}\fontsize{20.5}{24}\selectfont\bfseries 243,725\par}
-          \vspace{0.04cm}
-          {\color{Muted}\fontsize{9}{11.5}\selectfont
-            tonnes of estimated annual fuel demand
-          \par}
-        \end{column}
-      \end{columns}
+    \begin{column}{0.22\textwidth}
+      {\color{Navy}\fontsize{25}{28}\selectfont\bfseries 52\par}
+      \vspace{0.05cm}
+      {\color{Muted}\fontsize{9.5}{12}\selectfont
+        two-way voyages
+      \par}
     \end{column}
 
-    \begin{column}{0.35\textwidth}
-      \imageplaceholder{A Hong Kong–San Antonio route map with recurring voyages shown as ship tracks; add a small Cherry Express or reefer-container cue to show the existing trade lane}
+    \begin{column}{0.22\textwidth}
+      {\color{Navy}\fontsize{25}{28}\selectfont\bfseries 29\par}
+      \vspace{0.05cm}
+      {\color{Muted}\fontsize{9.5}{12}\selectfont
+        ships serving the route
+      \par}
+    \end{column}
+
+    \begin{column}{0.22\textwidth}
+      {\color{Navy}\fontsize{25}{28}\selectfont\bfseries 23.3\par}
+      \vspace{0.05cm}
+      {\color{Muted}\fontsize{9.5}{12}\selectfont
+        average voyage days
+      \par}
+    \end{column}
+
+    \begin{column}{0.25\textwidth}
+      {\color{Navy}\fontsize{22}{25}\selectfont\bfseries 243,725\par}
+      \vspace{0.05cm}
+      {\color{Muted}\fontsize{9.5}{12}\selectfont
+        tonnes of estimated annual fuel demand
+      \par}
     \end{column}
   \end{columns}
+
+  \vspace{0.42cm}
+  {\color{RuleGray}\rule{\textwidth}{0.5pt}\par}
 
   \vfill
   {\setlength{\fboxsep}{4pt}%
@@ -954,7 +929,7 @@
     - Jeremy's op-ed, Cherries to Carbon: the scale and regularity of this
       long-haul traffic create predictable fuel demand and a meaningful
       opportunity for emissions reduction through cleaner fuels.\par
-    - Visual: placeholder only.
+    - Visual: no external image; the slide uses a native four-metric layout.
   }
 \end{frame}
 
