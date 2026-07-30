@@ -33,7 +33,9 @@ This file records the factual and narrative sources used by the deck. The reposi
 
 **Source:** later written guidance supplied by Jeremy.
 
-**Used for:** Jeremy begins after two student groups, Part 1 ends around 10:30–10:40, break until 11:00, Part 2 continues until the 12:40 bus departure.
+**Used for:** Jeremy begins after two student groups, Part 1 ends around 10:30–10:40 and the break runs until 11:00.
+
+**Correction:** Jeremy later confirmed that Part 2 ends at 11:40, not 12:40. The final Part 2 is therefore a 40-minute research talk.
 
 **Repository status:** private correspondence; do not commit the original message or contact details.
 
@@ -63,19 +65,43 @@ This file records the factual and narrative sources used by the deck. The reposi
 
 **Notes:** the portrait is the reference for the identity-preserving pixel-art version. Preserve attribution/provenance in `assets/README.md`.
 
-## Claims requiring verification before Part 2 is final
+## Part 2 primary public sources
 
-The following items must be checked against primary sources before visible slide copy or dates are finalised:
+- IMO, *Fourth IMO Greenhouse Gas Study 2020* — slide 19's 2018 shipping
+  emissions estimate of 1,056 million tonnes of CO₂ and 2.89% of global
+  anthropogenic CO₂:
+  https://www.imo.org/en/ourwork/environment/pages/fourth-imo-greenhouse-gas-study-2020.aspx
+- IMO, *2023 IMO Strategy on Reduction of GHG Emissions from Ships* — overall
+  decarbonisation policy context:
+  https://www.imo.org/en/ourwork/environment/pages/imo-strategy-on-reduction-of-ghg-emissions-from-ships.aspx
+- IMO, *Future Fuels and Technology Project* — technical, safety, regulatory,
+  infrastructure, lifecycle and supply-chain considerations:
+  https://www.imo.org/en/mediacentre/pressbriefings/pages/future-fuels-and-technology.aspx
+- UK Government, *COP 26 Clydebank Declaration for Green Shipping Corridors* —
+  corridor definition and collaborative approach:
+  https://www.gov.uk/government/publications/cop-26-clydebank-declaration-for-green-shipping-corridors/cop-26-clydebank-declaration-for-green-shipping-corridors
+- IMO, *NextGEN Connect* — stakeholder coordination and route-level
+  implementation:
+  https://www.imo.org/en/ourwork/partnershipsprojects/pages/nextgen.aspx/
+- Global Maritime Forum, *Annual Progress Report on Green Shipping Corridors
+  2025* — implementation progress and the feasibility-wall framing:
+  https://globalmaritimeforum.org/report/annual-progress-report-on-green-shipping-corridors-2025/
+- Port of San Antonio, Cherry Express 2023–24 season — 11,776 containers and
+  direct-service transit-time reduction from 28 to 22 days:
+  https://www.puertosanantonio.com/en/prensa/terminales-sti-y-dp-world-de-puerto-san-antonio-aumentan-en-27-los
+- Modern Terminals, January 2025 cherry-container update — approximately 6,500
+  cherry containers handled in Hong Kong:
+  https://www.modernterminals.com/en/news/whats-new/13/196/hong-kong-starts-the-year-with-a-record-number-of-chilean-cherry-containers-handled-in-a-single-month.html
+- Hong Kong Transport and Logistics Bureau, 17 November 2025 press release —
+  San Antonio named among Hong Kong's first Partner Ports:
+  https://www.tlb.gov.hk/eng/psp/pressreleases/transport/2025/20251117c.html
+- Hong Kong Transport and Logistics Bureau, 22 November 2025 blog — Cherry
+  Express context and continuing exploration of Green Shipping Corridor
+  cooperation:
+  https://www.tlb.gov.hk/eng/blog/20251122.html
 
-- definitions and current status of Green Shipping Corridors;
-- shipping emissions and decarbonisation claims;
-- any IMO strategy dates or targets;
-- April 2025 Hong Kong–San Antonio proposal details;
-- Cherry Express cargo/trade statements;
-- November 2025 partner-port announcement and exact wording;
-- quantitative route, vessel, voyage, fuel or cargo statistics.
-
-When research begins, add the exact source link, publication date and supported slide numbers here.
+The April 2025 proposal wording is checked against Jeremy's privately supplied
+earlier TA presentation. That source remains outside the public repository.
 
 ## Slide-source convention
 
@@ -117,3 +143,25 @@ The version-1 speaker notes contain the same source blocks.
 
 No generated image is used as factual evidence. The slide 02 image is visibly
 labelled as illustrative.
+
+## Part 2 version 1 slide map
+
+### Slides 16–19 — From visible ships to an emissions estimate
+- Claims: IMO Fourth GHG Study and IMO decarbonisation materials.
+- Images: `slide-16-science-policy.png` through
+  `slide-19-global-emissions.png`; AI-generated illustrative pixel art.
+
+### Slides 20–23 — Pathways, constraints and Green Shipping Corridors
+- Claims: IMO Future Fuels and Technology, Clydebank Declaration, IMO NextGEN
+  and Global Maritime Forum.
+- Images: `slide-20-pathways.png` through `slide-23-coordination.png`;
+  AI-generated illustrative pixel art.
+
+### Slides 24–27 — Maritime data and the Hong Kong–San Antonio case
+- Claims: Jeremy's earlier TA presentation, Port of San Antonio, Modern
+  Terminals and Hong Kong Transport and Logistics Bureau.
+- Images: `slide-24-maritime-data.png` through
+  `slide-27-science-policy-together.png`; AI-generated illustrative pixel art.
+
+Each Part 2 slide contains a `[Sources]` block in its HTML and PPTX speaker
+notes. No generated image is used as factual evidence.

@@ -4,10 +4,10 @@ Last updated: 2026-07-30
 
 ## Current state
 
-**Part 1 version 1 is complete and ready for Jeremy's review.**
+**Part 1 and Part 2 version 1 are complete and ready for Jeremy's review.**
 
-The implemented deck contains 15 slides and follows the approved visual
-system:
+The two implemented decks contain 27 slides in total and follow the approved
+visual system:
 
 - pure-white 16:9 canvas;
 - stable left-text / right-image composition;
@@ -21,6 +21,10 @@ Current outputs:
 - `output/ENVR2002D_Class9_Part1.html` — self-contained HTML deck;
 - `output/ENVR2002D_Class9_Part1.pdf` — 15-page 16:9 PDF;
 - `output/ENVR2002D_Class9_Part1.pptx` — editable text, embedded images and
+  speaker notes.
+- `output/ENVR2002D_Class9_Part2.html` — self-contained 12-slide HTML deck;
+- `output/ENVR2002D_Class9_Part2.pdf` — 12-page 16:9 PDF;
+- `output/ENVR2002D_Class9_Part2.pptx` — editable text, embedded images and
   speaker notes.
 
 ## Completed in this version
@@ -37,6 +41,15 @@ Current outputs:
 - Rendered and inspected all 15 exported PowerPoint slides.
 - Ran the presentation overflow test: no overflow detected.
 - Confirmed the PPTX contains 15 speaker-note files and 15 embedded images.
+- Reframed Part 2 as a 40-minute research talk running from 11:00 to 11:40.
+- Implemented the 12-slide Part 2 narrative in `src/part2.html`.
+- Verified the shipping-emissions, Green Shipping Corridor, Cherry Express
+  and Partner Port claims against primary or authoritative sources.
+- Created 12 directly relevant Part 2 pixel-art illustrations.
+- Added slide-by-slide speaking times totaling 40 minutes.
+- Rendered and visually inspected all 12 Part 2 HTML/PDF pages and all 12
+  PowerPoint slides.
+- Confirmed the Part 2 PDF has 12 pages and the PPTX archive is valid.
 
 ## Review notes
 
@@ -48,15 +61,13 @@ Current outputs:
 
 ## Exact next task
 
-Jeremy should review Part 1 for:
+Collect Jeremy's content and pacing feedback on Part 2, then revise only the
+slides he identifies. Likely review questions:
 
-1. whether the personal details and tone sound natural in his voice;
-2. whether any slide needs more or less speaking time;
-3. whether the 15-slide sequence fits the 30–40 minute window;
-4. whether the current slide 15 transition is the right handoff to Part 2.
-
-After Jeremy approves or revises Part 1, update the copy and notes, rebuild all
-three outputs, repeat visual QA, and only then begin Part 2.
+1. Is the 10-minute emissions section simple enough for undergraduates?
+2. Should slide 19 keep the exact IMO numbers visible or move them to notes?
+3. Does slide 25 explain the Cherry Express commercial logic clearly enough?
+4. Is slide 26 appropriately modest about research's contribution?
 
 ## Known source material outside the repository
 
@@ -66,5 +77,4 @@ remain outside this public repository. See `SOURCES.md`.
 
 ## Blockers
 
-No technical or narrative blocker exists. Part 2 production is intentionally
-paused pending Jeremy's Part 1 review.
+No technical blocker exists.

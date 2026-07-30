@@ -25,7 +25,7 @@ Every new development session should read these files in order:
 - Jeremy begins after two student-group presentations, shortly after 10:00.
 - Part 1 ends around 10:30–10:40.
 - Break until 11:00.
-- Part 2 runs from 11:00 to 12:40, when the bus leaves.
+- Part 2 runs from 11:00 to 11:40 as a 40-minute research talk.
 
 ## Presentation structure
 
@@ -69,15 +69,21 @@ PPTX uses the same copy, images, layout and speaker notes.
 │   └── pixel/
 ├── src/
 │   ├── index.html
+│   ├── part2.html
 │   └── styles.css
 ├── scripts/
 │   ├── build_html.py
-│   └── build_ppt.mjs
+│   ├── build_ppt.mjs
+│   ├── build_part2_html.py
+│   └── build_part2_ppt.mjs
 ├── requirements.txt
 └── output/
     ├── ENVR2002D_Class9_Part1.html
     ├── ENVR2002D_Class9_Part1.pdf
-    └── ENVR2002D_Class9_Part1.pptx
+    ├── ENVR2002D_Class9_Part1.pptx
+    ├── ENVR2002D_Class9_Part2.html
+    ├── ENVR2002D_Class9_Part2.pdf
+    └── ENVR2002D_Class9_Part2.pptx
 ```
 
 `tmp/` contains local renders and is intentionally ignored.
@@ -107,8 +113,19 @@ node build_ppt.mjs
 The exported PPTX contains editable text, embedded pixel-art images and
 speaker notes. `AGENTS.md` contains the required visual-QA procedure.
 
+## Build Part 2
+
+```bash
+python scripts/build_part2_html.py
+cp scripts/build_part2_ppt.mjs tmp/ppt-work/build_part2_ppt.mjs
+node tmp/ppt-work/build_part2_ppt.mjs
+```
+
+Part 2 is deliberately maintained as a separate deck so that the 40-minute
+research talk can be reviewed and revised without destabilising Part 1.
+
 ## Current phase
 
-Part 1 version 1 is complete: 15 slides, 15 unique images, self-contained HTML,
-PDF and editable PPTX. The next step is Jeremy's content and pacing review
-before any Part 2 slide production begins.
+Part 1 version 1 and Part 2 version 1 are complete. Part 2 contains 12 slides
+with a 40-minute speaker-note plan. The next step is Jeremy's content and
+pacing review.

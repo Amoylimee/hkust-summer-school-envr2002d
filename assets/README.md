@@ -168,3 +168,26 @@ All slide-ready images below are version-1 assets created or approved on
 - Type: AI-generated illustrative pixel art
 - Purpose: close with a credible implementation-oriented lower-carbon port
 - Notes: future-facing but intentionally not science fiction
+
+## Part 2 asset manifest
+
+All slide-ready images below are version-1 assets created on 2026-07-30.
+They are AI-generated illustrative pixel art and are not factual evidence.
+
+| Asset | Slide | Purpose |
+|---|---:|---|
+| `pixel/slide-16-science-policy.png` | 16 | Connect maritime observation, analysis and policy relevance |
+| `pixel/slide-17-visible-ships.png` | 17 | Show that ships are visible while emissions are not directly observable |
+| `pixel/slide-18-estimate-emissions.png` | 18 | Make engine effort, operating time and fuel intuitive |
+| `pixel/slide-19-global-emissions.png` | 19 | Expand the perspective from individual ships to a global system |
+| `pixel/slide-20-pathways.png` | 20 | Show multiple complementary decarbonisation pathways |
+| `pixel/slide-21-real-world-barriers.png` | 21 | Show promising technology stalled by practical dependencies |
+| `pixel/slide-22-green-corridor.png` | 22 | Explain a Green Shipping Corridor as a coordinated route |
+| `pixel/slide-23-coordination.png` | 23 | Show corridor stakeholders and a missing implementation link |
+| `pixel/slide-24-maritime-data.png` | 24 | Show data revealing one credible route among many |
+| `pixel/slide-25-cherry-express.png` | 25 | Connect refrigerated cherry cargo with an existing Pacific service |
+| `pixel/slide-26-policy-conversation.png` | 26 | Show evidence entering a policy and port-practitioner conversation |
+| `pixel/slide-27-science-policy-together.png` | 27 | Close with science, operations and policy working together |
+
+The images contain no intentional real-world logos or documentary depictions.
+Any map, vessel, port, screen or data element is illustrative.

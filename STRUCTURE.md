@@ -8,7 +8,7 @@ This document is the stable slide-by-slide plan. It defines what each slide need
 - Learning outcome: students should understand how science informs maritime policy, why evidence matters, and why policy decisions also involve values, institutions, economics and politics.
 - Part 1: approximately 30–40 minutes, beginning shortly after 10:00.
 - Break: until 11:00.
-- Part 2: 11:00–12:40.
+- Part 2: 11:00–11:40, a 40-minute research talk.
 - Participation strategy: optional, low-risk prompts only. The lecture must work without student responses.
 
 ## Global slide rule
@@ -65,44 +65,38 @@ This section is a teaching argument, not a catalogue of Jeremy's papers:
 4. implementation still depends on institutions, economics, politics and coordination;
 5. the Green Shipping Corridor / Cherry Express case shows the full chain.
 
-The detailed Part 2 sequence remains provisional until Part 1 is visually complete.
+Part 2 is deliberately compact: 12 slides for a 40-minute research talk. It
+must explain the role of science clearly, reach the applied case quickly and
+leave enough time for Jeremy to explain the Hong Kong–San Antonio work without
+rushing.
 
 | Slide | Main takeaway / working title | Visible content | Right-side image brief |
 |---|---|---|---|
-| 16 | **What can science actually do for maritime policy?** | Restart after the break with the central question. | Pixel-art port observation room or researcher looking from data screen to harbour. |
-| 17 | **Look outside the port: there are ships everywhere.** | We can see ships, but visual observation alone cannot tell us the sector's emissions. | Pixel-art Hong Kong-like harbour with different vessel types at different distances. |
-| 18 | **So how do we estimate what those ships emit?** | Intuition: emissions depend on how hard the ship works, how long it operates and what it burns. Avoid the technical engine-power formula on the visible slide. | Pixel-art vessel with three intuitive visual cues: work/intensity, time and fuel. This may be a simple educational image, not a dense diagram. |
-| 19 | **Science turns movements into numbers.** | Vessel identity, movement, operating time and technical assumptions are combined to estimate emissions. | Pixel-art AIS tracks over a harbour becoming a simple emissions heat map. |
-| 20 | **The numbers tell us where the problem is concentrated.** | Evidence identifies important vessel groups, locations and operating stages. | Pixel-art harbour emissions map with a few clearly brighter corridors and port areas. |
-| 21 | **That evidence supports the case for decarbonisation.** | Shipping is essential, but its climate and air-pollution impacts create a clear need for transition. | Pixel-art split harbour scene: active trade on one side, visible emissions burden on the other; credible, not apocalyptic. |
-| 22 | **We know shipping must change. The harder question is how.** | Transition from problem measurement to solution assessment. | Pixel-art ship approaching several route choices on a maritime chart. |
-| 23 | **Science helps map possible pathways.** | Efficiency, operational change, alternative fuels and port infrastructure are possible elements. No option is presented as universally sufficient. | Pixel-art shipyard/port scene containing one clear example from each pathway, composed as a single scene rather than cards. |
-| 24 | **A promising solution can still fail in the real world.** | Cost, fuel availability, infrastructure, safety, demand and regulation constrain implementation. | Pixel-art clean-fuel vessel stopped by several practical port-side bottlenecks. Avoid abstract warning icons. |
-| 25 | **A Green Shipping Corridor creates a place to start.** | Introduce a corridor as a route where ports and shipping partners coordinate the transition. | Pixel-art map with two ports connected by one highlighted ocean route and a clean-fuel vessel. |
-| 26 | **The corridor concentrates demand, investment and learning.** | Coordination can make early fuel supply and infrastructure more realistic. | Pixel-art two-port system showing aligned fuel supply, ship service and cargo movement along one route. |
-| 27 | **The concept sounds simple. Building one is not.** | Partners must align fuel, vessels, cargo, finance, standards, ports and timing. | Pixel-art port meeting/operations scene where multiple real actors and physical elements must connect. |
-| 28 | **This is where maritime data becomes useful again.** | Data can identify routes with real traffic, suitable vessels and strategic cargo relationships. | Pixel-art global route map with many faint links and one evidence-backed route becoming clear. |
-| 29 | **Our analysis pointed to Hong Kong–San Antonio.** | Introduce the applied corridor proposal and why it deserved attention. | Pixel-art Pacific map with Hong Kong and San Antonio connected, with a container vessel on the route. |
-| 30 | **The Cherry Express gives the corridor a real commercial story.** | Chilean cherries move through the San Antonio–Hong Kong connection and onward to South China markets. | Pixel-art refrigerated containers/cherry cargo arriving at Hong Kong port; restrained cherry-red accent. |
-| 31 | **Existing trade makes the proposal more credible.** | The route already has cargo, ship calls and commercial relationships that can support coordination. | Pixel-art port-to-market chain: ship, Hong Kong terminal and rapid distribution of refrigerated cargo. |
-| 32 | **Research helped turn an idea into a proposal.** | Jeremy used maritime data to quantify the opportunity and presented it in April 2025. | Pixel-art presentation scene with route map and simplified evidence on screen. |
-| 33 | **The relationship continued beyond the presentation.** | San Antonio later became one of Hong Kong's first international partner ports, and further work continues. | Pixel-art Hong Kong and San Antonio port representatives connected by the route; no invented flags/ceremonial details unless sourced. |
-| 34 | **Science can move a policy conversation forward.** | Evidence → tailored explanation → right institutions → implementation work. | Pixel-art sequence within one scene: analysis desk, policy meeting and operating port. Avoid a conventional arrow flowchart. |
-| 35 | **Science informs policy; it does not make policy alone.** | Institutions, economics, politics, timing and values shape the final decision. | Pixel-art roundtable overlooking a port, with scientific evidence present as one input among several. |
-| 36 | **The useful question is not “science or policy?” It is how they work together.** | Close by returning to the course learning outcome and the practical role of evidence. | Pixel-art researcher and port practitioner looking over an active lower-carbon port together. |
+| 16 | **What can science actually do for maritime policy?** | Science helps us measure the problem, compare possible responses and test whether an idea can work in practice. | Pixel-art port observation room with a researcher looking between a data screen and the harbour. |
+| 17 | **We can see the ships. We cannot see their emissions.** | Looking outside tells us that ships are moving. It does not tell us how much they emit or where the largest impacts occur. | Pixel-art Hong Kong-like harbour with several vessel types and faint, invisible-looking exhaust traces becoming visible through a data overlay. |
+| 18 | **So how do we estimate what a ship emits?** | Combine three intuitive things: how hard the ship works, how long it works and the fuel it uses. Do not show the engine-power formula. | Pixel-art vessel with three embedded visual cues: effort, elapsed time and fuel. Keep it a single scene, not three cards. |
+| 19 | **The estimate changes the conversation.** | IMO's latest completed global study estimated that shipping produced 1,056 million tonnes of CO₂ in 2018—about 2.89% of global human-caused CO₂. | Pixel-art global shipping activity and emissions map, with the numerical scale represented visually rather than as a dashboard. |
+| 20 | **Science helps us compare possible pathways.** | Efficiency, operational change, alternative fuels and port infrastructure can all contribute. No single option solves every route. | Pixel-art working port containing credible examples of efficiency, operational planning, alternative fuel and shore-side infrastructure in one scene. |
+| 21 | **A good idea can still fail in the real world.** | Cost, fuel supply, vessels, infrastructure, safety, regulation and demand must line up. | Pixel-art alternative-fuel vessel facing practical port-side bottlenecks: unavailable fuel, unfinished equipment and waiting partners. |
+| 22 | **A Green Shipping Corridor creates a place to start.** | A corridor focuses willing ports, ship operators and fuel partners on decarbonising one shared route. | Pixel-art map with two ports connected by one highlighted ocean route and a lower-emission vessel. |
+| 23 | **The route is simple. The coordination is not.** | A viable corridor must connect cargo, vessels, fuel, ports, finance, standards and timing. | Pixel-art port planning meeting integrated with the physical harbour, showing the actors and infrastructure that must align. |
+| 24 | **This is where maritime data becomes useful again.** | Data can reveal routes with real traffic, suitable vessels and commercial relationships strong enough to support a corridor. | Pixel-art Pacific route map with many faint links and one evidence-backed connection becoming clear. |
+| 25 | **The Hong Kong–San Antonio route had a real commercial story.** | The Cherry Express already connects Chilean cherry exports with Hong Kong and Mainland China markets. Existing cargo makes a corridor proposal more credible. | Pixel-art Pacific route from San Antonio to Hong Kong, with refrigerated cherry containers and a restrained cherry-red accent. |
+| 26 | **Research helped move the idea into a policy conversation.** | Maritime-data analysis supported Jeremy's April 2025 proposal. On 17 November 2025, San Antonio became one of Hong Kong's first Partner Ports; further work continues. | Pixel-art timeline within one coherent scene: analysis, presentation and port partnership, without invented ceremony details. |
+| 27 | **Science informs policy. It does not make policy alone.** | Evidence can identify an opportunity and reduce uncertainty. Implementation still depends on institutions, economics, politics, values and people working together. | Pixel-art researcher and port practitioners looking over an active lower-carbon port together. |
 
 ## Low-risk interaction points
 
 These are optional speaker cues and should not appear as mandatory activities:
 
-- Slide 17: “If you looked outside and saw ten ships, what would you need to know before estimating their emissions?” Take one or two answers, then continue.
-- Slide 23: quick show of hands on which pathway students think is easiest to implement; immediately explain why no single pathway is enough.
-- Slide 25: ask whether a corridor is mainly a route, a technology or a coordination mechanism; answer it on the next click/statement.
+- Slide 17: “If you looked outside and saw ten ships, what would you need to know before estimating their emissions?” Pause briefly, then answer it on slide 18.
+- Slide 20: optional show of hands on which pathway seems easiest; continue immediately if the room is quiet.
+- Slide 22: ask whether a corridor is mainly a route, a technology or a coordination mechanism; answer: it is primarily a coordination mechanism focused on a route.
 
 If the room is quiet, Jeremy should answer each question himself without awkward delay.
 
 ## Open items
 
-- Confirm the exact number of Part 2 slides after Part 1 timing is rehearsed.
-- Verify all quantitative statements and dates before visible slide copy is finalised.
-- Decide whether partner-port details should appear as a dated milestone or as part of the closing implementation sequence.
+- Verify the April 2025 proposal wording against Jeremy's private presentation
+  before finalising the speaker notes.
+- Rehearse the 12-slide sequence to confirm it fits 40 minutes.

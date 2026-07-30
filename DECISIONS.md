@@ -76,3 +76,12 @@ Also produce an editable PPTX companion from the same content and visual system.
 
 **Reason:** Jeremy requested the complete first version in both HTML and
 PowerPoint while preserving the approved HTML-first design route.
+
+## D013 — Part 2 is a 40-minute research talk
+
+**Decision:** Part 2 runs from 11:00 to 11:40 and uses a compact 12-slide
+sequence rather than the earlier 21-slide plan.
+
+**Reason:** Jeremy corrected the end time from 12:40 to 11:40. The shorter
+format should reach the Green Shipping Corridor case quickly, keep interaction
+optional and reserve enough time to explain the research-to-policy connection.
