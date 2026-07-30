@@ -1,0 +1,201 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+
+\setsansfont{NimbusSans-Regular.otf}[
+  BoldFont=NimbusSans-Bold.otf,
+  ItalicFont=NimbusSans-Italic.otf,
+  BoldItalicFont=NimbusSans-BoldItalic.otf
+]
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{Navy}{HTML}{10263A}
+\definecolor{Muted}{HTML}{5B6B78}
+\definecolor{Orange}{HTML}{C76B43}
+\definecolor{Quiet}{HTML}{89959D}
+\definecolor{Pale}{HTML}{E9EEF1}
+
+\setbeamercolor{normal text}{fg=Navy,bg=white}
+\setbeamercolor{structure}{fg=Orange}
+\setbeamercolor{frametitle}{fg=Navy,bg=white}
+\setbeamercolor{footline}{fg=Quiet,bg=white}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{frametitle}{
+  \vspace{0.35cm}
+  \insertframetitle\par
+  \vspace{0.12cm}
+}
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.55cm,dp=0.25cm,leftskip=0.95cm,rightskip=0.95cm]{footline}
+    \fontsize{7.5}{9}\selectfont
+    ENVR2002D · CLASS 9\hfill\insertframenumber
+  \end{beamercolorbox}
+}
+
+\setbeamerfont{frametitle}{size=\fontsize{24}{27},series=\bfseries}
+\setbeamerfont{normal text}{size=\fontsize{15}{20}}
+\setbeamersize{text margin left=0.95cm,text margin right=0.95cm}
+
+\newcommand{\eyebrow}[1]{%
+  {\color{Orange}\fontsize{9}{11}\selectfont\bfseries\MakeUppercase{#1}\par}
+}
+
+\newcommand{\muted}[1]{\textcolor{Muted}{#1}}
+
+\begin{document}
+
+% Slide 1
+\begin{frame}[plain]
+  \vspace{0.75cm}
+  \eyebrow{ENVR2002D · Class 9}
+
+  \vspace{0.62cm}
+  {\color{Navy}\fontsize{29}{32}\selectfont\bfseries
+    How Can Science Support\\
+    Maritime Decarbonisation?
+  \par}
+
+  \vspace{0.45cm}
+  {\color{Orange}\rule{2.1cm}{1.4pt}\par}
+
+  \vspace{0.42cm}
+  {\color{Muted}\fontsize{15}{20}\selectfont
+    My journey from shipping to research, policy\\
+    and implementation
+  \par}
+
+  \vfill
+  {\color{Navy}\fontsize{12}{15}\selectfont\bfseries Jeremy Jiajing Chen\par}
+  \vspace{0.08cm}
+  {\color{Muted}\fontsize{10}{13}\selectfont HKUST\par}
+  \vspace{0.45cm}
+\end{frame}
+
+% Slide 2
+\begin{frame}{Today’s lecture has two parts}
+  \vspace{0.1cm}
+
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.46\textwidth}
+      \eyebrow{Part 1}
+      \vspace{0.16cm}
+      {\color{Navy}\fontsize{16}{19}\selectfont\bfseries
+        How I ended up in shipping research
+      \par}
+      \vspace{0.12cm}
+      {\color{Orange}\fontsize{10.5}{13}\selectfont\bfseries 30–40 minutes\par}
+      \vspace{0.22cm}
+      {\color{Muted}\fontsize{11.5}{16}\selectfont
+        My shipping background, an unexpected PhD decision, my interest in
+        computers and coding, and the research I do today.
+      \par}
+    \end{column}
+
+    \begin{column}{0.04\textwidth}
+      \centering
+      {\color{Pale}\rule{1pt}{3.45cm}}
+    \end{column}
+
+    \begin{column}{0.46\textwidth}
+      \eyebrow{Part 2}
+      \vspace{0.16cm}
+      {\color{Navy}\fontsize{16}{19}\selectfont\bfseries
+        How science supports maritime decarbonisation
+      \par}
+      \vspace{0.12cm}
+      {\color{Orange}\fontsize{10.5}{13}\selectfont\bfseries 40 minutes\par}
+      \vspace{0.22cm}
+      {\color{Muted}\fontsize{11.5}{16}\selectfont
+        How evidence helps us measure emissions, compare possible pathways,
+        and move promising ideas towards implementation.
+      \par}
+    \end{column}
+  \end{columns}
+
+  \vfill
+  {\color{Quiet}\fontsize{8.5}{11}\selectfont
+    Break between the two parts · Part 2 begins at 11:00
+  \par}
+\end{frame}
+
+% Slide 3
+\begin{frame}[plain]
+  \vfill
+  \eyebrow{Part 1}
+
+  \vspace{0.55cm}
+  {\color{Navy}\fontsize{30}{34}\selectfont\bfseries
+    How I ended up in\\
+    shipping research
+  \par}
+
+  \vspace{0.46cm}
+  {\color{Orange}\rule{2.1cm}{1.4pt}\par}
+
+  \vspace{0.42cm}
+  {\color{Muted}\fontsize{14}{19}\selectfont
+    My journey through family, shipping, computers\\
+    and one unexpected decision.
+  \par}
+  \vfill
+\end{frame}
+
+% Slide 4
+\begin{frame}{Shipping came before research.}
+  \vspace{0.35cm}
+  {\color{Navy}\fontsize{15}{21}\selectfont
+    My grandfather and father both worked at sea, so shipping had always
+    felt personal to me.
+  \par}
+
+  \vspace{0.58cm}
+  {\color{Muted}\fontsize{14}{20}\selectfont
+    I later studied \textcolor{Navy}{\bfseries International Shipping
+    Management}, followed by \textcolor{Navy}{\bfseries Logistics and
+    Environmental Policy}—first learning how the industry works, and then
+    asking how it could change.
+  \par}
+\end{frame}
+
+% Slide 5
+\begin{frame}{A PhD was not my first choice.}
+  \vspace{0.25cm}
+  {\color{Navy}\fontsize{14.5}{20}\selectfont
+    After my Master’s, I had accepted a supply-chain management position
+    at \textbf{Huawei}.
+  \par}
+
+  \vspace{0.42cm}
+  {\color{Muted}\fontsize{14}{20}\selectfont
+    I then applied for a short Research Assistant position, mainly to help
+    pay for my flight home.
+  \par}
+
+  \vspace{0.42cm}
+  {\color{Navy}\fontsize{14.5}{20}\selectfont
+    A ten-minute conversation with Prof. Alexis Lau changed the direction.
+    The next day, I decided to pursue a PhD.
+  \par}
+\end{frame}
+
+% Slide 6
+\begin{frame}{I simply enjoyed computer games and coding.}
+  \vspace{0.32cm}
+  {\color{Navy}\fontsize{15}{21}\selectfont
+    There was no deeper reason at the beginning: I liked spending time on
+    a computer, playing games and writing code.
+  \par}
+
+  \vspace{0.48cm}
+  {\color{Muted}\fontsize{14}{20}\selectfont
+    Research gave me a way to bring these interests into my daily work:
+    working with data, building algorithms and solving difficult problems.
+  \par}
+\end{frame}
+
+\end{document}

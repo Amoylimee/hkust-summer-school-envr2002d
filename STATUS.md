@@ -6,6 +6,13 @@ Last updated: 2026-07-30
 
 **Part 1 and Part 2 version 1 are complete and ready for Jeremy's review.**
 
+An alternative six-slide Beamer opening sample is also ready for review. It
+tests a text-first academic direction before any decision is made to replace
+the existing HTML/PPTX production route:
+
+- `src/beamer_opening_sample.tex` — editable Beamer source;
+- `output/ENVR2002D_Beamer_Opening_Sample.pdf` — reviewed 16:9 sample.
+
 The two implemented decks contain 27 slides in total and follow the approved
 visual system:
 
@@ -50,6 +57,13 @@ Current outputs:
 - Rendered and visually inspected all 12 Part 2 HTML/PDF pages and all 12
   PowerPoint slides.
 - Confirmed the Part 2 PDF has 12 pages and the PPTX archive is valid.
+- Created and visually checked a six-slide Beamer opening sample covering the
+  lecture cover, two-part session structure, Part 1 divider and the first
+  three personal-story slides.
+- Incorporated Jeremy's wording corrections: “My journey,” “A PhD was not my
+  first choice,” and a direct description of enjoying computer games and
+  coding without adding an analytical motivation.
+- Confirmed the Beamer log contains no overfull boxes or font warnings.
 
 ## Review notes
 
@@ -61,13 +75,9 @@ Current outputs:
 
 ## Exact next task
 
-Collect Jeremy's content and pacing feedback on Part 2, then revise only the
-slides he identifies. Likely review questions:
-
-1. Is the 10-minute emissions section simple enough for undergraduates?
-2. Should slide 19 keep the exact IMO numbers visible or move them to notes?
-3. Does slide 25 explain the Cherry Express commercial logic clearly enough?
-4. Is slide 26 appropriately modest about research's contribution?
+Collect Jeremy's feedback on the six-slide Beamer opening sample. If the
+direction is approved, update the stable slide structure and extend the same
+visual system through the rest of Part 1 before revising Part 2.
 
 ## Known source material outside the repository
 
