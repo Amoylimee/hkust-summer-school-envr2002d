@@ -132,6 +132,8 @@ auxiliary files are removed after validation.
 - Moved the cover's main title slightly upward for better vertical balance.
 - Updated Prof. Alexis Lau's relationship label to “my supervisor” on
   slide 5.
+- Replaced slide 4's placeholder with Jeremy's portrait pixel-art illustration
+  connecting the family shipping story with his maritime studies.
 - Reworked slide 24 around the earlier presentation and op-ed evidence,
   showing why the San Antonio--Hong Kong route stands out in the data and what
   the figures imply for corridor potential.

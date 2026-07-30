@@ -17,6 +17,14 @@ Slide 23 reserves a right-side area for a simplified candidate-route map.
 Show many ship tracks first, then highlight one recurring port pair and label
 frequency, traffic scale and operator concentration.
 
+### slide-4.png
+
+- Status: active
+- Type: user-supplied portrait pixel-art illustration
+- Subject: family shipping experience and Jeremy's maritime studies
+- Use: right-side visual on slide 4
+- Treatment: full image shown without cropping
+
 ### hong-kong-victoria-harbour-raymond-yeung.jpg
 
 - Status: active

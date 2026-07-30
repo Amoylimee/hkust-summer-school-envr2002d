@@ -39,7 +39,8 @@ unapproved course files.
 - Family and education background supplied by Jeremy.
 - Public cross-check: Jeremy Jiajing Chen's personal website,
   https://amoylimee.github.io/index.html
-- Visual: placeholder only.
+- Visual: `assets/slide-4.png`, a user-supplied pixel-art illustration
+  connecting the family shipping story with Jeremy's maritime studies.
 
 ### Slide 5 — A PhD was not my first choice
 
