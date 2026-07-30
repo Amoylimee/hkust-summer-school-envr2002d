@@ -56,6 +56,7 @@ Active files:
 - `src/Makefile`
 - `src/main.tex`
 - `src/main.pdf`
+- `src/main-compressed.pdf`
 - `scripts/build_beamer.sh`
 - `output/ENVR2002D_Class9.pdf`
 
@@ -147,6 +148,8 @@ auxiliary files are removed after validation.
 - Removed the Hong Kong--San Antonio route-map placeholder and expanded slide
   23 into a full-width four-metric layout.
 - Highlighted the energy-source pathway on slide 18.
+- Added `src/main-compressed.pdf` as a 476 KB sharing copy while preserving
+  the full-resolution `src/main.pdf`.
 
 ## Exact next task
 
