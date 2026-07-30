@@ -1,97 +1,89 @@
-# STATUS.md
+# Project status
 
 Last updated: 2026-07-30
 
 ## Current state
 
-**Part 1 and Part 2 version 1 are complete and ready for Jeremy's review.**
+The repository has been migrated to the approved LaTeX Beamer production
+route.
 
-Two six-slide Beamer opening samples are ready for comparison before any
-decision is made to replace the existing HTML/PPTX production route:
+The active deck currently contains six reviewed opening slides:
 
-- `src/beamer_opening_sample.tex` — editable Beamer source;
-- `output/ENVR2002D_Beamer_Opening_Sample.pdf` — reviewed 16:9 sample.
-- `src/beamer_opening_econ_style.tex` — economics-seminar-style Beamer source;
-- `output/ENVR2002D_Beamer_Opening_EconStyle.pdf` — reviewed 16:9 sample using
-  a Times-compatible serif, black text, navy rules and image placeholders.
+1. lecture cover;
+2. two-part lecture structure;
+3. Part 1 divider;
+4. shipping and family background;
+5. the Huawei / Research Assistant / PhD turning point;
+6. computer games and coding.
 
-The two implemented decks contain 27 slides in total and follow the approved
-visual system:
+Active files:
 
-- pure-white 16:9 canvas;
-- stable left-text / right-image composition;
-- one Arial/Helvetica-style sans-serif family;
-- restrained navy, blue-grey and warm-orange typography;
-- one unique, directly relevant pixel-art image per slide;
-- low-density English copy designed for an undergraduate audience.
+- `src/main.tex`
+- `scripts/build_beamer.sh`
+- `output/ENVR2002D_Class9.pdf`
 
-Current outputs:
+The current PDF is 16:9, contains six pages and compiles without overfull
+boxes, underfull boxes or font warnings.
 
-- `output/ENVR2002D_Class9_Part1.html` — self-contained HTML deck;
-- `output/ENVR2002D_Class9_Part1.pdf` — 15-page 16:9 PDF;
-- `output/ENVR2002D_Class9_Part1.pptx` — editable text, embedded images and
-  speaker notes.
-- `output/ENVR2002D_Class9_Part2.html` — self-contained 12-slide HTML deck;
-- `output/ENVR2002D_Class9_Part2.pdf` — 12-page 16:9 PDF;
-- `output/ENVR2002D_Class9_Part2.pptx` — editable text, embedded images and
-  speaker notes.
+## Approved direction
 
-## Completed in this version
+- LaTeX Beamer is the sole active production route.
+- Visual style: white background, black Times-style serif typography and
+  restrained dark-navy rules and labels.
+- Cover, overview and section dividers are text-only.
+- Content slides may use a right-side image, but placeholders remain until
+  relevant visuals are approved.
 
-- Implemented the full Part 1 personal narrative in `src/index.html`.
-- Added a reusable white-background slide system in `src/styles.css`.
-- Preserved the three approved visual samples.
-- Created 12 additional slide-specific pixel-art illustrations.
-- Added an identity-preserving pixel portrait derived from Jeremy's public
-  website portrait.
-- Added speaker notes and source blocks to HTML and PPTX.
-- Added reproducible HTML/PDF and PPTX build scripts.
-- Rendered and inspected all 15 HTML pages.
-- Rendered and inspected all 15 exported PowerPoint slides.
-- Ran the presentation overflow test: no overflow detected.
-- Confirmed the PPTX contains 15 speaker-note files and 15 embedded images.
-- Reframed Part 2 as a 40-minute research talk running from 11:00 to 11:40.
-- Implemented the 12-slide Part 2 narrative in `src/part2.html`.
-- Verified the shipping-emissions, Green Shipping Corridor, Cherry Express
-  and Partner Port claims against primary or authoritative sources.
-- Created 12 directly relevant Part 2 pixel-art illustrations.
-- Added slide-by-slide speaking times totaling 40 minutes.
-- Rendered and visually inspected all 12 Part 2 HTML/PDF pages and all 12
-  PowerPoint slides.
-- Confirmed the Part 2 PDF has 12 pages and the PPTX archive is valid.
-- Created and visually checked a six-slide Beamer opening sample covering the
-  lecture cover, two-part session structure, Part 1 divider and the first
-  three personal-story slides.
-- Incorporated Jeremy's wording corrections: “My journey,” “A PhD was not my
-  first choice,” and a direct description of enjoying computer games and
-  coding without adding an analytical motivation.
-- Confirmed the Beamer log contains no overfull boxes or font warnings.
-- Created a second economics-style Beamer treatment with a white background,
-  black serif typography, restrained navy decoration and right-side image
-  placeholders on the three personal-story slides.
-- Rendered and inspected all six economics-style pages individually and
-  confirmed a clean compile with no overflow or font warnings.
+## Archive
 
-## Review notes
+The former 27-slide HTML/PPTX implementation and all associated outputs,
+scripts, requirements and pixel-art assets are preserved under:
 
-- Slide 2 is explicitly labelled as an illustrative image.
-- The deck intentionally does not include technical AIS-thinning material.
-- Part 1 closes by setting up Part 2's question: how research can help turn
-  maritime-decarbonisation ideas into workable action.
-- The images are illustrative pixel art, not documentary photographs.
+```text
+_archive/legacy-html-pptx/
+```
+
+The two Beamer style-selection samples are preserved under:
+
+```text
+_archive/beamer-samples/
+```
+
+Archived files are read-only references and are not part of the active build.
+
+## Completed in this migration
+
+- Promoted the approved economics-style Beamer sample to `src/main.tex`.
+- Added a reproducible XeLaTeX build script.
+- Generated the active six-page PDF.
+- Added hidden `[Sources]` notes to every implemented frame.
+- Rewrote the repository instructions and build documentation.
+- Updated the stable structure and durable decisions.
+- Replaced the old active asset manifest with rules for future images.
+- Preserved all superseded work in documented archive folders.
+- Confirmed the final build uses embedded Times-compatible serif fonts.
 
 ## Exact next task
 
-Collect Jeremy's feedback on the economics-style Beamer sample. If the
-direction is approved, update the stable slide structure and extend this
-visual system through the rest of Part 1 before revising Part 2.
+Review the wording and pacing of slides 4–6. Once approved, implement the
+remaining Part 1 slides in the same Beamer style before migrating Part 2.
 
-## Known source material outside the repository
+For visuals, decide slide by slide whether to:
 
-The working conversation used the course syllabus, a course-guide brief, an
-earlier TA presentation and the mid-term evaluation spreadsheet. These files
-remain outside this public repository. See `SOURCES.md`.
+1. keep the page text-only;
+2. reuse or adapt an archived visual;
+3. use a real photograph or document;
+4. create a new image.
+
+## Known open items
+
+- Final images have not been selected.
+- The active deck contains only the six-slide opening sequence.
+- Part 1 and Part 2 speaker notes still need to be expanded during migration.
 
 ## Blockers
 
-No technical blocker exists.
+No content or build blocker exists.
+
+Remote publication is intentionally left to the user's local Codex agent
+because GitHub CLI is not available in this workspace.

@@ -19,6 +19,15 @@ tmp/
 .tmp/
 rendered/
 *.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
 # Editor files
 .vscode/

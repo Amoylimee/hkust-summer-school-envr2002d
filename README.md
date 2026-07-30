@@ -1,131 +1,102 @@
 # HKUST Summer School ENVR2002D — Class 9
 
-This repository maintains Jeremy Jiajing Chen's guest lecture for **ENVR2002D: Tides of Change: Climate, Oceans, Ports & the Future of the Maritime World**.
+This repository maintains Jeremy Jiajing Chen's guest lecture for
+**ENVR2002D: Tides of Change: Climate, Oceans, Ports & the Future of the
+Maritime World**.
 
-The repository has two jobs:
+The active presentation is a 16:9 LaTeX Beamer deck using a restrained
+economics-seminar design.
 
-1. maintain the HTML slide deck, visual assets and exported HTML, PDF and editable PPTX;
-2. preserve enough context for a new AI-agent session to continue the work without reconstructing the project from chat history.
+## Current deliverables
+
+- Source: [`src/main.tex`](src/main.tex)
+- PDF: [`output/ENVR2002D_Class9.pdf`](output/ENVR2002D_Class9.pdf)
+- Build script: [`scripts/build_beamer.sh`](scripts/build_beamer.sh)
+
+The current PDF contains the approved six-slide opening sequence. The
+remainder of Part 1 and Part 2 will be migrated after Jeremy confirms the
+content and pacing.
 
 ## Start here
 
-Every new development session should read these files in order:
+Read these files before editing:
 
-1. [`AGENTS.md`](AGENTS.md) — authoritative working and design rules;
-2. [`STATUS.md`](STATUS.md) — current progress and immediate next task;
-3. [`STRUCTURE.md`](STRUCTURE.md) — slide-by-slide narrative and visual brief;
-4. [`DECISIONS.md`](DECISIONS.md) — decisions that should not be reopened without a reason;
-5. [`SOURCES.md`](SOURCES.md) — evidence and asset provenance.
+1. [`AGENTS.md`](AGENTS.md) — authoritative workflow and design rules;
+2. [`STATUS.md`](STATUS.md) — current state and exact next task;
+3. [`STRUCTURE.md`](STRUCTURE.md) — current slide sequence and planned arc;
+4. [`DECISIONS.md`](DECISIONS.md) — durable decisions;
+5. [`SOURCES.md`](SOURCES.md) — evidence and provenance;
+6. [`assets/README.md`](assets/README.md) — rules for future images.
 
-`CLAUDE.md` provides the same onboarding route for Claude-based agents.
+## Lecture structure
 
-## Course and timing
+### Part 1 — How I ended up in shipping research
 
-- Audience: undergraduate students from mixed academic backgrounds.
-- Jeremy begins after two student-group presentations, shortly after 10:00.
-- Part 1 ends around 10:30–10:40.
-- Break until 11:00.
-- Part 2 runs from 11:00 to 11:40 as a 40-minute research talk.
-
-## Presentation structure
-
-### Part 1 — Jeremy's route into shipping research
-
-A personal story connecting family shipping experience, formal training, an intended industry career, an unexpected Research Assistant opportunity, computer games, coding and maritime research.
+Approximately 30–40 minutes. Jeremy introduces his family connection to
+shipping, formal training, intended Huawei career, unexpected PhD decision,
+interest in computer games and coding, current research and future ambition.
 
 ### Part 2 — How science supports maritime decarbonisation
 
-A teaching sequence showing how science helps quantify shipping emissions, identify possible transition pathways, test whether proposed solutions are workable, and support policy and implementation. The Green Shipping Corridor and Hong Kong–San Antonio / Cherry Express work provide the main applied case.
+Approximately 40 minutes, beginning at 11:00. The section explains how science
+helps measure emissions, compare possible pathways, test implementation and
+support Green Shipping Corridor development.
 
-See [`STRUCTURE.md`](STRUCTURE.md) for the detailed slide plan.
+## Visual direction
 
-## Approved visual direction
+- pure white 16:9 canvas;
+- black Times New Roman-style serif typography;
+- dark navy used sparingly for rules, section labels, timings and page
+  markers;
+- low-density academic layouts;
+- text-only cover, session overview and section dividers;
+- optional right-side images on content slides;
+- placeholders remain until relevant images are approved.
 
-- pure white slide background;
-- consistent left-text / right-image composition;
-- one simple sans-serif type family;
-- low-density, natural presentation copy;
-- 8-bit / 16-bit pixel-art images in a consistent restrained palette;
-- every image must directly illustrate the point of its slide;
-- no dashboard cards, decorative diagrams, gradients or generic AI imagery.
+The source uses Times New Roman when available and falls back to Nimbus Roman,
+a metrically compatible open-source substitute.
 
-The main production route is a static 16:9 HTML deck. A companion editable
-PPTX uses the same copy, images, layout and speaker notes.
+## Build
+
+Install a TeX distribution that includes XeLaTeX and Beamer, then run:
+
+```bash
+./scripts/build_beamer.sh
+```
+
+The script compiles twice and writes:
+
+```text
+output/ENVR2002D_Class9.pdf
+```
+
+Temporary LaTeX files are written under `tmp/beamer-build/` and are ignored by
+Git.
 
 ## Repository layout
 
 ```text
 .
-├── README.md
+├── src/
+│   └── main.tex
+├── scripts/
+│   └── build_beamer.sh
+├── output/
+│   └── ENVR2002D_Class9.pdf
+├── assets/
+│   └── README.md
+├── _archive/
+│   ├── legacy-html-pptx/
+│   └── beamer-samples/
 ├── AGENTS.md
-├── CLAUDE.md
 ├── STATUS.md
 ├── STRUCTURE.md
 ├── DECISIONS.md
-├── SOURCES.md
-├── assets/
-│   ├── README.md
-│   ├── original/
-│   └── pixel/
-├── src/
-│   ├── index.html
-│   ├── part2.html
-│   └── styles.css
-├── scripts/
-│   ├── build_html.py
-│   ├── build_ppt.mjs
-│   ├── build_part2_html.py
-│   └── build_part2_ppt.mjs
-├── requirements.txt
-└── output/
-    ├── ENVR2002D_Class9_Part1.html
-    ├── ENVR2002D_Class9_Part1.pdf
-    ├── ENVR2002D_Class9_Part1.pptx
-    ├── ENVR2002D_Class9_Part2.html
-    ├── ENVR2002D_Class9_Part2.pdf
-    └── ENVR2002D_Class9_Part2.pptx
+└── SOURCES.md
 ```
 
-`tmp/` contains local renders and is intentionally ignored.
+## Archive
 
-## Build Part 1
-
-Install the Python dependency and build the self-contained HTML:
-
-```bash
-python -m pip install -r requirements.txt
-python scripts/build_html.py
-```
-
-The HTML build also writes the 16:9 PDF with WeasyPrint.
-
-The PPTX source uses the Codex presentation runtime and `@oai/artifact-tool`.
-In a Codex workspace:
-
-```bash
-node /root/.codex/skills/builtins/presentations/container_tools/setup_artifact_tool_workspace.mjs \
-  --workspace tmp/ppt-work
-cp scripts/build_ppt.mjs tmp/ppt-work/build_ppt.mjs
-cd tmp/ppt-work
-node build_ppt.mjs
-```
-
-The exported PPTX contains editable text, embedded pixel-art images and
-speaker notes. `AGENTS.md` contains the required visual-QA procedure.
-
-## Build Part 2
-
-```bash
-python scripts/build_part2_html.py
-cp scripts/build_part2_ppt.mjs tmp/ppt-work/build_part2_ppt.mjs
-node tmp/ppt-work/build_part2_ppt.mjs
-```
-
-Part 2 is deliberately maintained as a separate deck so that the 40-minute
-research talk can be reviewed and revised without destabilising Part 1.
-
-## Current phase
-
-Part 1 version 1 and Part 2 version 1 are complete. Part 2 contains 12 slides
-with a 40-minute speaker-note plan. The next step is Jeremy's content and
-pacing review.
+The former HTML/PPTX implementation, 27-slide outputs, pixel-art assets and
+style-selection samples are preserved under [`_archive/`](_archive/). They are
+retained for reference and are not part of the active build.

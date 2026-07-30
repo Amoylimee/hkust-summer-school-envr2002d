@@ -1,28 +1,37 @@
 # CLAUDE.md
 
-This repository is a continuing presentation-development project for Jeremy Jiajing Chen's HKUST ENVR2002D Class 9 lecture.
+This repository maintains Jeremy Jiajing Chen's HKUST ENVR2002D Class 9
+lecture.
 
-## Required startup sequence
+Before editing, read:
 
-Before editing any source, slide copy or image prompt, read these files completely:
+1. `AGENTS.md`
+2. `STATUS.md`
+3. `STRUCTURE.md`
+4. `DECISIONS.md`
+5. `SOURCES.md`
+6. `assets/README.md`, when working with visuals
 
-1. `AGENTS.md` — authoritative project and design instructions;
-2. `STATUS.md` — current progress and exact next task;
-3. `STRUCTURE.md` — slide-by-slide narrative and visual brief;
-4. `DECISIONS.md` — approved decisions that should be preserved;
-5. `SOURCES.md` — evidence and provenance;
-6. `assets/README.md` — visual rules and asset manifest conventions.
+`AGENTS.md` is authoritative.
 
-`AGENTS.md` is authoritative if any instruction appears inconsistent.
-
-## Essential context
+## Essential current context
 
 - The audience is undergraduate and non-specialist.
-- The deck has two parts: Jeremy's personal journey, then how science supports maritime decarbonisation.
-- The approved visual direction is pure white background, simple sans-serif typography, left-side text, right-side content-relevant pixel-art image.
-- Avoid complex templates, generic AI imagery, cards, gradients, dense technical explanation and participation-dependent classroom activities.
-- The source format is static 16:9 HTML/CSS, exported and visually checked as PDF.
+- Part 1 introduces Jeremy's route into shipping research.
+- Part 2 explains how science supports maritime decarbonisation.
+- The active source is `src/main.tex`.
+- The active production route is LaTeX Beamer.
+- The approved style is an economics-seminar treatment: white background,
+  black Times-style serif text and restrained dark-navy rules.
+- Images are optional and should remain as placeholders until a relevant
+  visual is approved.
+- The legacy HTML/PPTX implementation is read-only under `_archive/`.
 
-## End-of-session requirement
+Build with:
 
-Before stopping, update `STATUS.md` with completed work, any unresolved issue and the exact recommended next action. Update the other project documents when their corresponding facts change, then commit the work.
+```bash
+./scripts/build_beamer.sh
+```
+
+Before stopping, rebuild, inspect changed slides, update `STATUS.md` and commit
+the work.

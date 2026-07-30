@@ -1,177 +1,147 @@
 # AGENTS.md
 
-This file is the authoritative instruction set for AI agents working on this repository.
+This file is the authoritative instruction set for agents working on Jeremy
+Jiajing Chen's HKUST ENVR2002D Class 9 lecture.
 
-## 1. Session onboarding
+## 1. Start every session here
 
-Before changing anything, read the following files completely:
+Read these files completely before changing the deck:
 
 1. `AGENTS.md`
 2. `STATUS.md`
 3. `STRUCTURE.md`
 4. `DECISIONS.md`
 5. `SOURCES.md`
-6. `assets/README.md`, when working with visuals
+6. `assets/README.md`, when adding or replacing visuals
 
-Then inspect the current source and rendered deck. Do not reconstruct the project from general assumptions or redesign it from scratch.
+Then inspect `src/main.tex` and the current PDF in `output/`.
 
-At the end of every meaningful work session:
+At the end of a meaningful session:
 
-- update `STATUS.md` with what changed and the exact next task;
-- update `STRUCTURE.md` if slide order, visible copy or visual briefs changed;
-- update `DECISIONS.md` only when Jeremy approves a new durable decision;
-- update `SOURCES.md` and `assets/README.md` when evidence or visual assets are added;
-- commit changes with a concise, descriptive message.
+- update `STATUS.md` with completed work and the exact next task;
+- update `STRUCTURE.md` when slide order, visible copy or image briefs change;
+- update `DECISIONS.md` only when Jeremy approves a durable decision;
+- update `SOURCES.md` and `assets/README.md` when evidence or visuals change;
+- rebuild and visually inspect every changed slide;
+- commit the work with a concise message.
 
-## 2. Project owner and audience
+## 2. Audience and communication job
 
-- Project owner and presenter: Jeremy Jiajing Chen, also referred to as Jeremy or JJ.
+- Presenter: Jeremy Jiajing Chen, also referred to as Jeremy or JJ.
 - Course: HKUST ENVR2002D, Class 9.
-- Audience: undergraduate students with mixed backgrounds. Assume they are intelligent but are not specialists in AIS, emissions modelling, shipping regulation or maritime decarbonisation.
-- Visible slide copy is in clear natural English.
+- Audience: undergraduate students with mixed academic backgrounds.
+- Visible copy: clear, natural English for intelligent non-specialists.
 - Communication with Jeremy may be in Chinese.
 
-The deck should make complex research intuitive without making it inaccurate.
+The lecture should make research and maritime policy intuitive without making
+them inaccurate.
 
-## 3. Stable narrative
+The session has two parts:
 
-The presentation has two parts:
+- **Part 1:** Jeremy's route into shipping research.
+- **Part 2:** how science supports maritime decarbonisation through
+  measurement, comparison, implementation analysis and the Green Shipping
+  Corridor / Hong Kong–San Antonio case.
 
-- **Part 1:** Jeremy's personal route into shipping research.
-- **Part 2:** how science supports maritime decarbonisation, illustrated through emissions estimation, transition pathways, Green Shipping Corridors and the Hong Kong–San Antonio / Cherry Express case.
+## 3. Approved production route
 
-The detailed slide sequence lives in `STRUCTURE.md`. Do not change the agreed storyline or add technical material merely because it is available. Propose structural changes before implementing them.
+LaTeX Beamer is the sole active production route.
+
+- Main source: `src/main.tex`
+- Build command: `./scripts/build_beamer.sh`
+- Current PDF: `output/ENVR2002D_Class9.pdf`
+- Temporary LaTeX files and rendered PNGs: `tmp/` and never committed
+
+The former HTML/PPTX implementation is preserved under
+`_archive/legacy-html-pptx/`. Do not edit, rebuild or move archived files back
+into the active tree unless Jeremy explicitly asks.
+
+The build requires XeLaTeX. The source uses Times New Roman when installed and
+falls back to the metrically compatible Nimbus Roman family.
 
 ## 4. Approved visual system
 
-These requirements are mandatory unless Jeremy explicitly changes them.
+The deck follows a restrained economics-seminar Beamer style:
 
-### Canvas and composition
+- 16:9 canvas;
+- pure white background;
+- black serif typography;
+- Times New Roman or the documented compatible fallback;
+- dark navy used only for thin rules, section labels, timings and page
+  markers;
+- generous margins and low information density;
+- no orange accent, gradients, shadows, dashboards, pills or decorative
+  interface elements.
 
-- 16:9 slide ratio.
-- Background must be **pure white (`#FFFFFF`)**.
-- Default composition: **text on the left, image on the right**.
-- Keep the left and right regions stable across slides so the deck feels deliberate.
-- A practical starting ratio is approximately 55% text / 45% image.
-- Use generous margins and vertical centring. Avoid excessive empty space, but never fill space with decoration.
+Cover, session-structure and section-divider slides are text-first.
 
-### Typography
+Content slides may use a left-text / right-image layout. Images are optional.
+Keep a placeholder until a relevant and approved image is available. Never add
+a generic ship image merely to fill space.
 
-- Use one simple sans-serif family throughout: Arial, Helvetica, Inter or a close system-safe equivalent.
-- Use weight and size for hierarchy; do not introduce a second display font.
-- Titles should generally be 50–66 px in HTML / at least 35 pt in presentation terms.
-- Body copy should generally be 22–25 px in HTML / at least 16 pt.
-- Use dark navy for primary text, muted blue-grey for secondary text and one restrained warm-orange accent.
-- Avoid all-caps except for a short eyebrow label.
+## 5. Content rules
 
-### Images
+- Give every slide one narrative job and one primary takeaway.
+- Use titles Jeremy could naturally say aloud.
+- Prefer two short paragraphs over dense bullet lists.
+- Explain intuition before technical detail.
+- Do not add technical material merely because it is available.
+- Do not use AIS thinning as the opening research case.
+- Do not reuse the IMO sulphur cap as the main policy example.
+- Show the role of science through measurement, comparison, pathway
+  assessment and implementation support.
+- Do not imply that science alone determines policy. Institutions, economics,
+  politics and values also matter.
 
-- The preferred illustration style is polished **8-bit / 16-bit pixel art**.
-- Pixel art should use a consistent restrained palette: deep navy, desaturated blue, muted sea green, white/ivory and limited warm orange.
-- Jeremy's portrait may be converted from his real photograph into identity-preserving pixel art.
-- Every slide's image must directly explain, illustrate or emotionally support what that slide says.
-- Do not use a generic container ship simply because the topic is shipping.
-- Do not reuse one image for several different claims.
-- Keep a slide-to-image brief in `STRUCTURE.md` and provenance in `assets/README.md`.
-- Generated images must contain no text, logos or watermarks unless specifically required.
-- Never present an illustrative or generated image as documentary evidence or as a real family photograph.
+### Participation
 
-### Avoid
+Use only low-risk, optional prompts. The lecture must remain smooth if no
+student responds. Do not rely on workshops, breakout groups or mandatory
+discussion.
 
-- AI-looking presentation templates;
-- card grids, pills, badges, dashboards and fake interfaces;
-- decorative diagrams that do not improve understanding;
-- gradients, glass effects, dramatic glows and excessive shadows;
-- multiple font families or editorial-serif styling;
-- dense bullet lists;
-- vague slogans and formulaic marketing language;
-- unrelated imagery chosen only to make a slide look full.
-
-## 5. Content and teaching rules
-
-- Each slide has one narrative job and one primary takeaway.
-- The slide title should be something Jeremy could naturally say aloud.
-- Prefer one short paragraph or two short statements over bullet lists.
-- Explain the intuition first. Add technical detail only when it changes understanding.
-- AIS thinning and other research-method details are too technical for the opening story and should not be used as the main teaching case.
-- The IMO sulphur cap was covered earlier in the course and should not be reused as the main opening case.
-- The role of science must be visible through concrete work: measurement, comparison, pathway assessment and implementation support.
-- Do not imply that science alone determines policy. Policy also involves institutions, economics, politics and values.
-
-### Classroom participation
-
-Class participation is likely to be uneven. Activities must be low-risk and optional:
-
-- brief show-of-hands questions;
-- rhetorical questions followed immediately by Jeremy's explanation;
-- one simple choice students can answer without group reorganisation.
-
-The lecture must still work if no student responds. Do not build the session around workshops, breakout groups or mandatory discussion.
-
-## 6. Technical production
-
-The default production route is:
-
-1. maintain the source as static HTML/CSS;
-2. use local assets only;
-3. render at 16:9;
-4. export to PDF with print backgrounds enabled and zero page margins;
-5. export an editable PPTX companion with the same copy, assets and speaker notes;
-6. inspect every rendered HTML/PDF page and every rendered PPTX slide at full size.
-
-Preferred repository locations:
-
-- source: `src/`
-- build scripts: `scripts/`
-- approved original assets: `assets/original/`
-- approved pixel assets: `assets/pixel/`
-- temporary work: `tmp/` or `.tmp/` and never committed
-- final HTML/PDF/PPTX: `output/`
-
-If the HTML is meant to be distributed as one file, inline the approved assets in the final build while retaining normal source files in `src/`.
-
-## 7. Visual QA
-
-Before presenting a revision to Jeremy:
-
-- render every changed slide at 1280 × 720 or an equivalent 16:9 resolution;
-- inspect every changed slide individually;
-- check title wrapping, body overflow, image crop, face crop and consistency of image scale;
-- verify that the image visibly corresponds to the slide's claim;
-- create a contact sheet for deck-level consistency;
-- confirm the PDF page count and 16:9 page size.
-- render the exported PPTX through LibreOffice, not only through the authoring
-  runtime, and run the presentation overflow test.
-- confirm speaker notes and embedded images exist in the PPTX.
-
-Do not describe a deck as finished when only the HTML source has been edited.
-
-## 8. Source and privacy discipline
+## 6. Source and privacy discipline
 
 This repository is public.
 
-- Do not commit private email threads, personal email addresses, file identifiers, confidential project documents or unapproved course materials.
-- Do not commit credentials, API keys or environment files.
+- Do not commit private messages, email addresses, confidential attachments,
+  credentials or unapproved course materials.
 - Prefer primary and authoritative sources for factual claims.
-- Record factual and visual provenance in `SOURCES.md` and `assets/README.md`.
-- If an attachment supplied in chat may be private, summarise only the approved information and ask before committing the source file.
+- Record factual and visual provenance in `SOURCES.md`.
+- Record private sources through neutral descriptions only.
+- Never present an illustrative or generated visual as documentary evidence.
 
-## 9. Change discipline
+## 7. Build and quality assurance
 
-- Preserve Jeremy's approved wording, story and style unless the requested task requires a change.
+After changing the deck:
+
+1. run `./scripts/build_beamer.sh`;
+2. confirm the PDF is 16:9 and has the expected page count;
+3. inspect the LaTeX log for overfull or underfull boxes and font warnings;
+4. render every page to PNG at presentation resolution;
+5. inspect every changed page individually at full size;
+6. create a contact sheet to check deck-level consistency;
+7. verify image crops, title wrapping, body fit, footers and page numbers.
+
+Do not describe the deck as finished when only the `.tex` source has been
+edited.
+
+## 8. Change discipline
+
+- Preserve Jeremy's approved wording, structure and style.
 - Keep unrelated edits out of the same commit.
-- Do not overwrite original images; add edited versions under `assets/pixel/`.
-- Use concise commit prefixes where useful: `docs:`, `deck:`, `assets:`, `fix:`.
-- Update `STATUS.md` before ending the session so the next agent has a precise handoff.
+- Do not delete superseded work; move it into `_archive/` with an explanatory
+  README.
+- Keep final outputs in `output/`, active source in `src/`, build scripts in
+  `scripts/`, approved visuals in `assets/`, and temporary files in `tmp/`.
 
-## 10. Definition of done
+## 9. Definition of done
 
-A deck revision is complete only when:
+A revision is complete when:
 
 - the requested slides are implemented;
-- all images are relevant and provenance is recorded;
-- changed pages have been rendered and visually checked;
-- the PDF export is current;
-- the PPTX export is current and passes overflow/render checks;
-- `STATUS.md` accurately states the result and next step;
-- the changes are committed to the repository.
+- the PDF is rebuilt;
+- the changed pages have been visually checked;
+- the build log is clean;
+- sources and image provenance are current;
+- `STATUS.md` records the exact next task;
+- all changes are committed.
