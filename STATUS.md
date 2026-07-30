@@ -130,6 +130,8 @@ auxiliary files are removed after validation.
 - Updated the cover with Jeremy's Year 4 PhD Candidate status and Division of
   Environment and Sustainability affiliation.
 - Moved the cover's main title slightly upward for better vertical balance.
+- Updated Prof. Alexis Lau's relationship label to “my supervisor” on
+  slide 5.
 - Reworked slide 24 around the earlier presentation and op-ed evidence,
   showing why the San Antonio--Hong Kong route stands out in the data and what
   the figures imply for corridor potential.

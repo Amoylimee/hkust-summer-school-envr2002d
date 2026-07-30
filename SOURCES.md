@@ -44,7 +44,7 @@ unapproved course files.
 ### Slide 5 — A PhD was not my first choice
 
 - Huawei job offer, Research Assistant application, flight-ticket motivation,
-  conversation with Prof. Alexis Lau (Jeremy's boss) and PhD decision:
+  conversation with Prof. Alexis Lau (Jeremy's supervisor) and PhD decision:
   Jeremy's earlier presentation and personal account supplied privately.
 - Visual: placeholder only.
 
