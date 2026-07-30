@@ -6,12 +6,14 @@ Last updated: 2026-07-30
 
 **Part 1 and Part 2 version 1 are complete and ready for Jeremy's review.**
 
-An alternative six-slide Beamer opening sample is also ready for review. It
-tests a text-first academic direction before any decision is made to replace
-the existing HTML/PPTX production route:
+Two six-slide Beamer opening samples are ready for comparison before any
+decision is made to replace the existing HTML/PPTX production route:
 
 - `src/beamer_opening_sample.tex` — editable Beamer source;
 - `output/ENVR2002D_Beamer_Opening_Sample.pdf` — reviewed 16:9 sample.
+- `src/beamer_opening_econ_style.tex` — economics-seminar-style Beamer source;
+- `output/ENVR2002D_Beamer_Opening_EconStyle.pdf` — reviewed 16:9 sample using
+  a Times-compatible serif, black text, navy rules and image placeholders.
 
 The two implemented decks contain 27 slides in total and follow the approved
 visual system:
@@ -64,6 +66,11 @@ Current outputs:
   first choice,” and a direct description of enjoying computer games and
   coding without adding an analytical motivation.
 - Confirmed the Beamer log contains no overfull boxes or font warnings.
+- Created a second economics-style Beamer treatment with a white background,
+  black serif typography, restrained navy decoration and right-side image
+  placeholders on the three personal-story slides.
+- Rendered and inspected all six economics-style pages individually and
+  confirmed a clean compile with no overflow or font warnings.
 
 ## Review notes
 
@@ -75,8 +82,8 @@ Current outputs:
 
 ## Exact next task
 
-Collect Jeremy's feedback on the six-slide Beamer opening sample. If the
-direction is approved, update the stable slide structure and extend the same
+Collect Jeremy's feedback on the economics-style Beamer sample. If the
+direction is approved, update the stable slide structure and extend this
 visual system through the rest of Part 1 before revising Part 2.
 
 ## Known source material outside the repository

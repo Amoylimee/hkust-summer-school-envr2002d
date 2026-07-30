@@ -1,0 +1,239 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+
+% Times New Roman-compatible serif family available in the build environment.
+\setmainfont{NimbusRoman-Regular.otf}[
+  BoldFont=NimbusRoman-Bold.otf,
+  ItalicFont=NimbusRoman-Italic.otf,
+  BoldItalicFont=NimbusRoman-BoldItalic.otf
+]
+\setsansfont{NimbusSans-Regular.otf}[
+  BoldFont=NimbusSans-Bold.otf,
+  ItalicFont=NimbusSans-Italic.otf,
+  BoldItalicFont=NimbusSans-BoldItalic.otf
+]
+\usefonttheme{serif}
+
+\definecolor{Ink}{HTML}{111111}
+\definecolor{Navy}{HTML}{123B5D}
+\definecolor{Muted}{HTML}{5D6268}
+\definecolor{RuleGray}{HTML}{D8DCE0}
+\definecolor{Placeholder}{HTML}{F5F6F7}
+
+\setbeamercolor{normal text}{fg=Ink,bg=white}
+\setbeamercolor{structure}{fg=Navy}
+\setbeamercolor{frametitle}{fg=Ink,bg=white}
+\setbeamercolor{footline}{fg=Muted,bg=white}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{frametitle}{
+  \vspace{0.25cm}
+  \insertframetitle\par
+  \vspace{0.12cm}
+  {\color{Navy}\rule{\textwidth}{0.65pt}\par}
+  \vspace{0.1cm}
+}
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.52cm,dp=0.22cm,leftskip=0.85cm,rightskip=0.85cm]{footline}
+    {\color{Navy}\rule{1.15cm}{0.6pt}}\hspace{0.18cm}
+    \fontsize{7.2}{8.5}\selectfont ENVR2002D · CLASS 9
+    \hfill
+    \textcolor{Navy}{\insertframenumber}
+  \end{beamercolorbox}
+}
+
+\setbeamerfont{frametitle}{size=\fontsize{21}{24},series=\bfseries}
+\setbeamerfont{normal text}{size=\fontsize{14}{18}}
+\setbeamersize{text margin left=0.85cm,text margin right=0.85cm}
+
+\newcommand{\partlabel}[1]{%
+  {\color{Navy}\fontsize{9}{11}\selectfont\bfseries\MakeUppercase{#1}\par}
+}
+
+\newcommand{\imageplaceholder}[1]{%
+  \setlength{\fboxsep}{0pt}%
+  \fcolorbox{Navy}{Placeholder}{%
+    \parbox[c][3.65cm][c]{0.93\linewidth}{%
+      \centering
+      {\color{Navy}\fontsize{8}{10}\selectfont\bfseries IMAGE PLACEHOLDER\par}
+      \vspace{0.18cm}
+      {\color{Muted}\fontsize{8.5}{11}\selectfont\itshape #1\par}
+    }%
+  }%
+}
+
+\begin{document}
+
+% Slide 1 — lecture cover
+\begin{frame}[plain]
+  \vspace{0.55cm}
+  \partlabel{ENVR2002D · Class 9}
+  \vspace{0.2cm}
+  {\color{Navy}\rule{\textwidth}{0.8pt}\par}
+
+  \vspace{0.75cm}
+  {\color{Ink}\fontsize{29}{33}\selectfont\bfseries
+    How Can Science Support\\
+    Maritime Decarbonisation?
+  \par}
+
+  \vspace{0.5cm}
+  {\color{Ink}\fontsize{15}{20}\selectfont
+    My journey from shipping to research, policy\\
+    and implementation
+  \par}
+
+  \vfill
+  {\color{Ink}\fontsize{12}{15}\selectfont\bfseries Jeremy Jiajing Chen\par}
+  \vspace{0.06cm}
+  {\color{Muted}\fontsize{10}{12}\selectfont Hong Kong University of Science and Technology\par}
+  \vspace{0.4cm}
+\end{frame}
+
+% Slide 2 — session structure
+\begin{frame}{Today’s lecture has two parts}
+  \vspace{0.22cm}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.46\textwidth}
+      \partlabel{Part 1}
+      \vspace{0.22cm}
+      {\color{Ink}\fontsize{16}{19}\selectfont\bfseries
+        How I ended up in shipping research
+      \par}
+      \vspace{0.13cm}
+      {\color{Navy}\fontsize{10.5}{13}\selectfont\bfseries 30–40 minutes\par}
+      \vspace{0.34cm}
+      {\color{Ink}\fontsize{11.5}{15.5}\selectfont
+        My shipping background, an unexpected PhD decision, my interest in
+        computers and coding, and the research I do today.
+      \par}
+    \end{column}
+
+    \begin{column}{0.04\textwidth}
+      \centering
+      {\color{RuleGray}\rule{0.6pt}{3.45cm}}
+    \end{column}
+
+    \begin{column}{0.46\textwidth}
+      \partlabel{Part 2}
+      \vspace{0.22cm}
+      {\color{Ink}\fontsize{16}{19}\selectfont\bfseries
+        How science supports maritime decarbonisation
+      \par}
+      \vspace{0.13cm}
+      {\color{Navy}\fontsize{10.5}{13}\selectfont\bfseries 40 minutes\par}
+      \vspace{0.34cm}
+      {\color{Ink}\fontsize{11.5}{15.5}\selectfont
+        How evidence helps us measure emissions, compare possible pathways,
+        and move promising ideas towards implementation.
+      \par}
+    \end{column}
+  \end{columns}
+
+  \vfill
+  {\color{Muted}\fontsize{8.5}{10.5}\selectfont
+    Break between the two parts · Part 2 begins at 11:00
+  \par}
+\end{frame}
+
+% Slide 3 — Part 1 divider
+\begin{frame}[plain]
+  \vfill
+  \partlabel{Part 1}
+  \vspace{0.3cm}
+  {\color{Navy}\rule{1.3cm}{0.9pt}\par}
+
+  \vspace{0.52cm}
+  {\color{Ink}\fontsize{30}{34}\selectfont\bfseries
+    How I ended up in\\
+    shipping research
+  \par}
+
+  \vspace{0.48cm}
+  {\color{Ink}\fontsize{14}{18.5}\selectfont
+    My journey through family, shipping, computers\\
+    and one unexpected decision.
+  \par}
+  \vfill
+\end{frame}
+
+% Slide 4 — shipping background
+\begin{frame}{Shipping came before research.}
+  \vspace{0.08cm}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.58\textwidth}
+      {\color{Ink}\fontsize{13.5}{18.5}\selectfont
+        My grandfather and father both worked at sea, so shipping had always
+        felt personal to me.
+      \par}
+
+      \vspace{0.5cm}
+      {\color{Ink}\fontsize{13}{18}\selectfont
+        I later studied \textbf{International Shipping Management}, followed
+        by \textbf{Logistics and Environmental Policy}—first learning how the
+        industry works, and then asking how it could change.
+      \par}
+    \end{column}
+
+    \begin{column}{0.35\textwidth}
+      \imageplaceholder{Family connection to shipping or early maritime study}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% Slide 5 — PhD decision
+\begin{frame}{A PhD was not my first choice.}
+  \vspace{0.12cm}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.58\textwidth}
+      {\color{Ink}\fontsize{12.6}{17.5}\selectfont
+        After my Master’s, I had accepted a supply-chain management position
+        at \textbf{Huawei}.
+      \par}
+
+      \vspace{0.35cm}
+      {\color{Ink}\fontsize{12.6}{17.5}\selectfont
+        I then applied for a short Research Assistant position, mainly to help
+        pay for my flight home.
+      \par}
+
+      \vspace{0.35cm}
+      {\color{Ink}\fontsize{12.6}{17.5}\selectfont
+        A ten-minute conversation with Prof. Alexis Lau changed the direction.
+        The next day, I decided to pursue a PhD.
+      \par}
+    \end{column}
+
+    \begin{column}{0.35\textwidth}
+      \imageplaceholder{Huawei career plan, RA opening or the turning-point conversation}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% Slide 6 — computers and coding
+\begin{frame}{I simply enjoyed computer games and coding.}
+  \vspace{0.22cm}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.58\textwidth}
+      {\color{Ink}\fontsize{13.5}{18.5}\selectfont
+        There was no deeper reason at the beginning: I liked spending time on
+        a computer, playing games and writing code.
+      \par}
+
+      \vspace{0.5cm}
+      {\color{Ink}\fontsize{13}{18}\selectfont
+        Research gave me a way to bring these interests into my daily work:
+        working with data, building algorithms and solving difficult problems.
+      \par}
+    \end{column}
+
+    \begin{column}{0.35\textwidth}
+      \imageplaceholder{Computer games, coding or an early programming setup}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}
