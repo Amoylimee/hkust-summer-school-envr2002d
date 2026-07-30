@@ -61,6 +61,8 @@ Archived files are read-only references and are not part of the active build.
 - Updated the stable structure and durable decisions.
 - Replaced the old active asset manifest with rules for future images.
 - Preserved all superseded work in documented archive folders.
+- Made Beamer's incidental sans-serif font portable with TeX Gyre Heros from
+  TeX Live.
 - Confirmed the final build uses embedded Times-compatible serif fonts.
 
 ## Exact next task
@@ -84,6 +86,3 @@ For visuals, decide slide by slide whether to:
 ## Blockers
 
 No content or build blocker exists.
-
-Remote publication is intentionally left to the user's local Codex agent
-because GitHub CLI is not available in this workspace.

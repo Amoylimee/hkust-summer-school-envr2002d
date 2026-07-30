@@ -14,10 +14,12 @@
     BoldItalicFont=NimbusRoman-BoldItalic.otf
   ]
 }
-\setsansfont{NimbusSans-Regular.otf}[
-  BoldFont=NimbusSans-Bold.otf,
-  ItalicFont=NimbusSans-Italic.otf,
-  BoldItalicFont=NimbusSans-BoldItalic.otf
+% TeX Gyre Heros ships with TeX Live and keeps Beamer's incidental sans-serif
+% text portable without relying on separately installed Nimbus Sans files.
+\setsansfont{texgyreheros-regular.otf}[
+  BoldFont=texgyreheros-bold.otf,
+  ItalicFont=texgyreheros-italic.otf,
+  BoldItalicFont=texgyreheros-bolditalic.otf
 ]
 \usefonttheme{serif}
 \setbeameroption{hide notes}
