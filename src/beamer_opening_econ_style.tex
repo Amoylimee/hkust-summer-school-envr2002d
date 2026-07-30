@@ -3,12 +3,17 @@
 \usepackage{fontspec}
 \usepackage{microtype}
 
-% Times New Roman-compatible serif family available in the build environment.
-\setmainfont{NimbusRoman-Regular.otf}[
-  BoldFont=NimbusRoman-Bold.otf,
-  ItalicFont=NimbusRoman-Italic.otf,
-  BoldItalicFont=NimbusRoman-BoldItalic.otf
-]
+% Use Times New Roman when installed; otherwise use its metrically compatible
+% open-source substitute available in the build environment.
+\IfFontExistsTF{Times New Roman}{
+  \setmainfont{Times New Roman}
+}{
+  \setmainfont{NimbusRoman-Regular.otf}[
+    BoldFont=NimbusRoman-Bold.otf,
+    ItalicFont=NimbusRoman-Italic.otf,
+    BoldItalicFont=NimbusRoman-BoldItalic.otf
+  ]
+}
 \setsansfont{NimbusSans-Regular.otf}[
   BoldFont=NimbusSans-Bold.otf,
   ItalicFont=NimbusSans-Italic.otf,
